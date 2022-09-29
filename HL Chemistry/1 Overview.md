@@ -10,5 +10,10 @@
 6. Labs
 7. Test :(
 
-## Files
-1. 
+##
+
+![Nice Diagram from Crash Course Chemistry](../images/1ofig1.png)
+
+Nice equations
+
+very cool
