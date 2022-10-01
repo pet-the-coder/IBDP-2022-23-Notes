@@ -8,6 +8,8 @@
 4. Polar Coordinates
 5. Newton's Second Law in Polar Systems + Banked Curves
 6. Apparent Weight
+7. Artifical Gravity
+8. Work and Energy
 
 ---
 
@@ -50,3 +52,14 @@
 ![Example](images/1.6_1_Roller_Coaster_Example.jpg)
 
 ---
+
+## Artificial Gravity
+
+![Fake Gravity](images/1.7_Artificial_Gravity.jpg)
+
+---
+
+## Work and Energy
+
+![Work and Energy](images/1.8_0_Work___Energy.jpg)
+![Work Example](images/1.8_1_Example_For_Work___Energy.jpg)
