@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.3)  5 OCT 2022 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.3)  6 OCT 2022 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -54,6 +54,9 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@dimlist=\toks19
 
 (D:\latex-mik\tex/latex/geometry\geometry.cfg))
+(D:\latex-mik\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (D:\latex-mik\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -233,20 +236,20 @@ File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 ) (1.1 - Enthalpy.aux)
 \openout1 = `"1.1 - Enthalpy.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -337,27 +340,31 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 62.
+(Font)              <14.4> on input line 64.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 62.
+(Font)              <7> on input line 64.
  [1
 
 {C:/Users/peter.zhang/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (1
-.1 - Enthalpy.aux) ) 
+.1 - Enthalpy.aux) )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 68 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 4876 strings out of 478338
- 84982 string characters out of 2851690
- 386745 words of memory out of 3000000
- 23264 multiletter control sequences out of 15000+600000
+ 4922 strings out of 478338
+ 85954 string characters out of 2851690
+ 387035 words of memory out of 3000000
+ 23305 multiletter control sequences out of 15000+600000
  473220 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,79p,236b,201s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\peter.zhang\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\tcrm1200.pk><D:/latex-mik/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/latex-mik/fo
-nts/type1/public/amsfonts/cm/cmss12.pfb><D:/latex-mik/fonts/type1/public/amsfon
-ts/cm/cmss17.pfb>
-Output written on "1.1 - Enthalpy.pdf" (2 pages, 48661 bytes).
+ 69i,11n,79p,236b,256s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\peter.zhang\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\tcrm1200.pk><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/latex-mik/fonts/
+type1/public/amsfonts/cm/cmss12.pfb><D:/latex-mik/fonts/type1/public/amsfonts/c
+m/cmss17.pfb>
+Output written on "1.1 - Enthalpy.pdf" (2 pages, 48627 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
