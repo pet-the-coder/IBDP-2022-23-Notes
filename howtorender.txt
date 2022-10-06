@@ -1,0 +1,7 @@
+# marp bad
+
+pretty sure just:
+
+grip "filename"
+
+download as pdf :)
