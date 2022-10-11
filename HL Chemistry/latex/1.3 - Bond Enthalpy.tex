@@ -7,7 +7,7 @@
 \documentclass[12pt]{article} % use larger type; default would be 10pt
 
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
-
+\usepackage{amssymb}
 %%% Examples of Article customizations
 % These packages are optional, depending whether you want the features they provide.
 % See the LaTeX Companion or other references for full information.
@@ -16,7 +16,7 @@
 \usepackage{geometry} % to change the page dimensions
 \usepackage{setspace}
 \geometry{a4paper} % or letterpaper (US) or a5paper or....
-% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+\geometry{margin=1in} % for example, change the margins to 2 inches all round
 % \geometry{landscape} % set up the page for landscape
 %   read geometry.pdf for detailed page layout information
 
@@ -54,7 +54,7 @@
 
 %%% The "real" document content comes below...
 
-\title{1.1 Enthalpy}
+\title{1.3 Bond Enthalpy}
 \author{Peter Zhang}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
@@ -63,27 +63,91 @@
 \begin{document}
 \maketitle
 
+\pagebreak
+
+\tableofcontents
 
 \pagebreak
-\doublespace
 
-\section{Measuring Energy Change}
+% start document
+\section {Bond Enthalpy}
 
-\subsection{Energy}
+Bond enthalpy is is the energy required to break bonds
 
-Energy is basically the ability to do work
+Bond Enthalpy's are actually `average` values, not exact values. This is why sometimes we opt to use Hess's Law over Bond Enthalpy Formulas due to inaccuracies in average values.
 
-When mixing, if the solution does not dissolve properly → water does not have enough kinetic enegy.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../images/1.3fig1.png}
+	\caption{Bond Enthalpy in certain atoms}
+	\label{fig:image}
+\end{figure}
 
-Thus, energy must be inputted into the system i.e hotplate.
+Enthalpy values from Bond Enthalpy equations will not equal the value from Hess's Law.
 
+\subsection{Bond Enthalpy Equation}
 
+\textbf{Equation (similar to Formation Enthalpy)}
 
+$$\triangle{H} = \sum{\triangle{H}_{bonds\ broken(reactants)}} - \sum{\triangle{H}_{bonds\ formed(products)}}$$
 
+\pagebreak
 
+\subsection{Example}
 
+How to solve the following?
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../images/1.3fig2.png}
+	\caption{Example 1}
+	\label{fig:image2}
+\end{figure}
+
+\textbf{Steps for solving Bond Enthalpy Questions}
+
+\begin{enumerate}
+\item draw out the bonds for any large compounds (bonds affect the enthalpy)\\for certain compounds (specifically organic compounds, the way you draw them affects the types of bonds found)
+\item calculate the bond enthalpy using the `data booklet` (do not mistake these values for bond length)
+\item use the formula for bond enthalpy\\$$\triangle{H} = \sum{\triangle{H}_{bonds\ broken(rea)}} - \sum{\triangle{H}_{bonds\ formed(pro)}}$$
+\end{enumerate}
+
+\pagebreak
+
+\section{\textbf{RULES}}
+
+\begin{enumerate}
+\item NO CHANGING STATES - all products and reactants should be in the same state (like carbon monoxide)\\ $CO_{(g)} \rightarrow C_{(g)} + O_{(g)}$\\Not where C is a solid (but a gas)
+\item No extra bonds should exist\\\textbf{For example}: for CO, it should not be $\frac{1}{2}$O but rather, just O
+\end{enumerate}
+
+\subsection{When solving `Bond Enthalpy` problems}
+
+\begin{enumerate}
+\item Draw out the bonds for any large compounds
+	\begin{itemize}
+	\item Number and Types of bonds affect the Bond Enthalpy
+	\end{itemize}
+\item Calculate the Bond Enthalpy
+	\begin{itemize}
+	\item Use the bond enthalpy chart from the `data booklet` to find required values
+	\end{itemize}
+\item Use the formula for Bond Enthalpy
+\end{enumerate}
 
 
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
 

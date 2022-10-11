@@ -1,0 +1,220 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{amssymb}
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\usepackage{setspace}
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{1.1 Enthalpy}
+\author{Peter Zhang}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\doublespacing
+\begin{document}
+\maketitle
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\singlespace
+
+\section{Measuring Energy Change}
+
+\subsection{Energy}
+
+Energy is basically the ability to do work
+
+When mixing, if the solution does not dissolve properly → water does not have enough kinetic enegy.
+
+Thus, energy must be inputted into the system i.e hotplate.
+
+\section{Types of Systems}
+
+\subsection{Open System}
+
+A system where surroundings can influence system. Example: Open beaker.
+
+\textbf{Anything can interfere with it (basically)}
+
+\subsection{Closed System}
+
+Things cannot get in but temperature can affect system. (just put a lid lol)
+Only affected by temperature changes
+
+\subsection{Isolated System}
+
+A closed system where no chemical substances can get in and temperature does not affect.
+
+*\textit{\textbf{Isolated systems are the preffered system! Styrofoam cups can act as a pseudo-isolated system. Acts as a replacement for calorimeter.}}
+
+\pagebreak
+
+\singlespace
+
+\section{Enthalpy}
+
+A change in energy (J). A loss of heat or gain of heat \textbf{IN THE SYSTEM}.
+
+\subsection{Types of Reactions}
+\begin{enumerate}
+\item Endothermic Reaction
+\item Exothermic Reaction
+\end{enumerate}
+
+\subsection{Endothermic Reaction}
+Positive enthalpy but loss of heat in the system
+
+$$T_i > T_f$$
+
+Thus the heat of the surroundings is greater than the heat in the system: 
+$$T_{surroundings} > T_{system}$$
+
+\singlespace
+\begin{itemize}
+\item the system appears cold
+\item energy from the environment is \textbf{absorbed} into the system to finish the reaction
+\item $\triangle{H} > 0$
+\end{itemize}
+
+\subsection{Exothermic Reaction}
+Negative enthalpy but gain of heat from system
+
+$$T_i < T_f$$
+
+Thus the heat of the surroundings is less than the heat in the system
+$$T_{surroundings} < T_{system}$$
+
+\singlespace
+\begin{itemize}
+\item the system appears hot/hotter
+\item energy is being \textbf{released} from the exothermic reaction to finish the reaction
+\item $\triangle{H} < 0$
+\end{itemize}
+
+\section{Standard Conditions for Enthalpy}
+
+\begin{enumerate}
+\item Pressure = 100kPa
+\item Concentration = 1.0u (M)
+\item T = 298K
+\item \textbf{Standard State}
+\end{enumerate}
+
+
+\subsection{Variable Definition}
+\textbf{Q} = heat energy (\underline{enthalpy})
+
+\textbf{m} = mass (g)
+
+\textbf{c} = specific heat capacity ($Jg^{-1}K^{-1}$)
+
+\textbf{T} = temperature (K)
+
+
+\section{Assumptions for Solution-Enthalpy}
+
+\begin{enumerate}
+\item Volume of solution = Volume of $H_2O$
+\item Density = $1g/cm^3$
+\item $\therefore$ mass = volume of solution
+\item All heat from reaction goes to $H_2O$
+\item \textbf{Assume Isolated System} (no heat loss)
+\end{enumerate}
+
+\pagebreak
+
+\section{Examples}
+
+Determine the molar enthalpy of combustion of butanol if 250 $cm^3$ of butanol is burned in excess oxygen. The heat from the alcohol is transferred to water. Initial temp is $22.1^\circ$ and fuel temp is $34.5^\circ$
+\singlespace
+
+\subsection*{Solution}
+$$\triangle{H}_{combustion} = -mc\triangle{T}$$
+$$ = -(250g)(4.18J/gK)(34.5 - 22.1)$$
+$$ = -12958J$$
+
+Butanol: $C_4H_9OH$
+
+\subsubsection*{Mass of Butanol}
+\begin{itemize}
+\item $M = 74g/mol$
+\item $n = \frac{m}{M} \rightarrow \frac{250g}{74g/mol} \rightarrow 3.378mol$
+\end{itemize}
+
+\subsubsection*{Find Enthalpy}
+\begin{itemize}
+\item $\triangle{H} = \frac{Q}{n}$
+\item $=\frac{12958}{3.378mol}$
+\item $=-3836J/mol$
+\item $= -3.8kJ/mol$
+
+\end{itemize}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

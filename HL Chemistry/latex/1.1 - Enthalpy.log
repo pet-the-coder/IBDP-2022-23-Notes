@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.3)  6 OCT 2022 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.3)  6 OCT 2022 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -27,12 +27,24 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
+(D:\latex-mik\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(D:\latex-mik\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (D:\latex-mik\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (D:\latex-mik\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks19
 )
 (D:\latex-mik\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -51,7 +63,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen144
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
-\Gm@dimlist=\toks19
+\Gm@dimlist=\toks20
 
 (D:\latex-mik\tex/latex/geometry\geometry.cfg))
 (D:\latex-mik\tex/latex/setspace\setspace.sty
@@ -102,7 +114,7 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen162
 \ar@mcellbox=\box51
 \extrarowheight=\dimen163
-\NC@list=\toks20
+\NC@list=\toks21
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box52
@@ -113,12 +125,12 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip52
 \plitemsep=\skip53
 \plparsep=\skip54
-\pl@lab=\toks21
+\pl@lab=\toks22
 )
 (D:\latex-mik\tex/latex/tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks22
-\verbatim@line=\toks23
+\every@verbatim=\toks23
+\verbatim@line=\toks24
 \verbatim@in@stream=\read2
 )
 (D:\latex-mik\tex/latex/subfig\subfig.sty
@@ -292,12 +304,12 @@ LaTeX Font Info:    ... okay on input line 63.
 \scratchbox=\box54
 \nofMPsegments=\count277
 \nofMParguments=\count278
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks25
 \MPscratchCnt=\count279
 \MPscratchDim=\dimen174
 \MPnumerator=\count280
 \makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks26
 ) (D:\latex-mik\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -339,34 +351,47 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 64.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 64.
- [1
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
 
-{C:/Users/peter.zhang/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (1
-.1 - Enthalpy.aux) )
-(\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 68 (\begingroup)
-### bottom level 
+(D:\latex-mik\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+
+
+(D:\latex-mik\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/peter.zhang/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (1.1 -
+ Enthalpy.toc)
+\tf@toc=\write3
+\openout3 = `"1.1 - Enthalpy.toc"'.
+
+ [2] [3] [4] [5]
+[6] (1.1 - Enthalpy.aux) ) 
 Here is how much of TeX's memory you used:
- 4922 strings out of 478338
- 85954 string characters out of 2851690
- 387035 words of memory out of 3000000
- 23305 multiletter control sequences out of 15000+600000
- 473220 words of font info for 41 fonts, out of 8000000 for 9000
+ 5500 strings out of 478338
+ 92723 string characters out of 2851690
+ 392580 words of memory out of 3000000
+ 23853 multiletter control sequences out of 15000+600000
+ 480867 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,79p,236b,256s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\peter.zhang\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\tcrm1200.pk><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/latex-mik/fonts/
-type1/public/amsfonts/cm/cmss12.pfb><D:/latex-mik/fonts/type1/public/amsfonts/c
-m/cmss17.pfb>
-Output written on "1.1 - Enthalpy.pdf" (2 pages, 48627 bytes).
+ 69i,11n,79p,260b,281s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\peter.zhang\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm1200.pk><D:/latex-mik/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/la
+tex-mik/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/latex-mik/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmr12.pf
+b><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/latex-mik/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><D:/latex-mik/fonts/type1/public/amsfonts/cm/cm
+ss12.pfb><D:/latex-mik/fonts/type1/public/amsfonts/cm/cmss17.pfb><D:/latex-mik/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/latex-mik/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><D:/latex-mik/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "1.1 - Enthalpy.pdf" (6 pages, 156724 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
