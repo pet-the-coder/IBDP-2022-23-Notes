@@ -1,0 +1,189 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{amssymb}
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\usepackage{setspace}
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{margin=1in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{1.5 Entropy}
+\author{Peter Zhang}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\doublespacing
+\begin{document}
+\maketitle
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+% start document
+\section {Entropy}
+
+\subsection{What is Entropy?}
+
+Entropy is a measurement of disorder/randomness
+
+Higher disorder $\rightarrow$ greater chance for \textbf{sponteaneous reaction}
+
+More order $\rightarrow$ less entropy (less spontinuity)
+
+\subsubsection{Order of Entropy}
+\begin{itemize}
+\item solid
+\item liquid
+\item gas
+\end{itemize}
+
+
+\subsection{Chemistry likes Higher Entropy}
+
+Higher entropy means \textbf{less energy is required to start a reaction}
+
+The more manipulation we perform on a system/reaction $\rightarrow$ the less we are able to control the results.
+
+\subsubsection{Entropy is also not good}
+
+Too much entropy \textbf{results in more biproducts} $\rightarrow$ randomness in results
+
+\pagebreak
+
+\section{Entropy Symbol and Equation}
+
+Entropy:
+
+$$\triangle{S}\ units: Jmol^{-1}K^{-1}$$
+
+\begin{itemize}
+\item $\triangle{S} > 0 \rightarrow$ disorder
+\item $\triangle{S} < 0 \rightarrow$ order
+\end{itemize}
+
+\subsection{When using Entropy}
+
+When using entropy,  make sure to look at the entire system.  The three main types of energy in a system include:
+
+\singlespace
+\begin{itemize}
+\item Enthalpy
+\item Entropy
+\item Gibb's Free Energy (1.6)
+\end{itemize}
+\doublespace
+
+Numbers are usually not necassary for entropy since we can just find relative entropy.  For example, when changing states,  (from solid to liquid) we know that entropy increases beacuse liquid atoms have more energy and random movement.
+
+\pagebreak
+
+\section{Entropy Examples}
+
+\subsection{Mercury Liquid to Gas}
+
+$Hg_l \rightarrow Hg_g$
+$\triangle{S} = (+)$
+
+The liquid to gas transformation results in the mercury transitioning to a state of higher disorder
+
+\subsection{Carbon Dioxide Gas to Solid}
+
+$CO_{2g} \rightarrow CO_{2s}$
+$\triangle{S} = (-)$
+
+Gas to solid transition results in less energy and more order in solids than in gases
+
+\subsection{2 Gas to 1 gas}
+
+$N_{2g} + 2O_{2g} \rightarrow 2NO_{2g}$
+$\triangle{S} = (-)$
+
+Two gasses to one gas results in less moles of total gas atoms and thus lowers the entropy because less chaos and movement in the product gas.
+
+\subsection{AQ solution to Precipitate (s)}
+
+$2NaCl_{aq} + Pb(NO_3)_{2aq} \rightarrow PbCl_{2s} + 2NaNO_{3aq}$
+$\triangle{S} = (-)$
+
+Two liquids coming together to form a solid and a liquid, thus more order
+
+\subsection{2 Gas to 2 Gas}
+
+$CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$
+$\triangle{S} = 0$
+
+Same number of atoms on either side.
+
+\textbf{or}
+
+$C_2H_6 + \frac{7}{2}O_2 \rightarrow 2CO_2 + 3H_2O$
+$\triangle{S} = (+)$
+
+More molecules on left side, therefore the entropy increases and the system becomes more \textbf{stable}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
