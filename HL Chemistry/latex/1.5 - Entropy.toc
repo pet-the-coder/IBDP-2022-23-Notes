@@ -11,3 +11,5 @@
 \contentsline {subsection}{\numberline {3.3}2 Gas to 1 gas}{5}{}%
 \contentsline {subsection}{\numberline {3.4}AQ solution to Precipitate (s)}{5}{}%
 \contentsline {subsection}{\numberline {3.5}2 Gas to 2 Gas}{5}{}%
+\contentsline {section}{\numberline {4}Equation for Entropy}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Alternative Equation}{6}{}%
