@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Lattice Enthalpy}{3}{}%
+\contentsline {subsection}{\numberline {1.1}What is Lattice Enthalpy?}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Lattice Enthalpy Equation}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Note about Electron Affinity}{3}{}%
+\contentsline {section}{\numberline {2}Born-Haber Process}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Example with NaCl}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Example with MgO}{5}{}%
+\contentsline {section}{\numberline {3}Enthalpy of Solutions}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Example: MgO}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Example: $AlCl_3$}{6}{}%
