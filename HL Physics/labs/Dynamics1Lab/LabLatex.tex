@@ -42,6 +42,8 @@ To compare the experimental acceleration to the theoretical acceleration for an 
 		\hline
 		$m_{weight\ 2}$ & $50g\pm0.2g$\\
 		\hline
+		$a_{car}$ (measured with LoggerPro) & $1.100\pm0.1160m/s$\\
+		\hline
 	\end{tabular}
 	\captionof{table}{Measured Values}
 \end{center}
@@ -55,23 +57,10 @@ To compare the experimental acceleration to the theoretical acceleration for an 
 		\hline
 		$g$ & $9.8m/s^2$\\
 		\hline
-		$f$ (friction) & assume none $\therefore{0}$\\
+		$f$ (friction) & assume none $\therefore{0N}$\\
 		\hline
 	\end{tabular}
 	\captionof{table}{Other Values}
-\end{center}
-
-\begin{center}
-	\begin{tabular}{|c|c|}
-		\hline
-		Variable & Calculated Value\\
-		\hline \hline
-		$m_{t}$ & $m_{weight\ 1} + m_{weight\ 2} = 70g\pm0.4g$\\
-		\hline
-		$a_{car}$ (calculated with LoggerPro) & $1.100\pm0.1160m/s$\\
-		\hline
-	\end{tabular}
-	\captionof{table}{Calculated Values}
 \end{center}
 
 \begin{figure}[H]
@@ -104,7 +93,7 @@ To compare the experimental acceleration to the theoretical acceleration for an 
 \item no friction
 \item massless string
 \item massless pulley
-\item no frictino in pulley
+\item no friction in pulley
 \end{itemize}
 
 \pagebreak
@@ -124,14 +113,14 @@ $a_{car} = -a_{t} = a$
 
 \subsubsection{x-axis (car)}
 \begin{align*}
-\sum{F_{car}} 		& = m_{car} * a_{car}	(2nd law) \\
+\sum{F_{car}} 		& = m_{car} * a_{car}	(2nd\ law) \\
 \therefore 			& m_{car} * a \\
 [1] m_{car} * a 			& = T
 \end{align*}
 
-\subsubsection{y-axis (weight)}
+\subsubsection{y-axis (the weights)}
 \begin{align*}
-\sum{F_{t}} 		& = m_{t} * a_{t}	(2nd law) \\
+\sum{F_{t}} 		& = m_{t} * a_{t}	(2nd\ law) \\
 				& = m_{t} * (-a) \\
 -m_{t}*a 		& = T - w_{t} \\
 -m_{t}*a 		& = T - m_{t}*g \\
@@ -188,11 +177,12 @@ Make a data/results table
 		\hline
 		Expected Acceleration & $1.11m/s^2 \pm 0.01m/s^2$\\
 		\hline
+		$m_{t}$ & $m_{weight\ 1} + m_{weight\ 2} = 70g\pm0.4g$\\
+		\hline
 	\end{tabular}
 	\captionof{table}{Data/Results Table}
 \end{center}
 
-\pagebreak
 
 \section{Discussion}
 
@@ -213,9 +203,21 @@ a_{experimental} = 1.100\pm0.1160m/s\\
 
 The experimental acceleration agrees with the uncertainty of the lab.
 
+\pagebreak
 
 \subsection{Question 2}
 State at least 3 relevant and significant sources of error in this lab.
+
+\subsubsection{String Error}
+The string is not massless and can stretch. This results in the sudden spike/jerk that occurs in the very beginning. The non-zero mass of the string also lowers the acceleration as the mass of the string contributes to the overall mass of the system.
+
+\subsubsection{Friction}
+Although there is very small friction, the friction exists. This will slow down the cart and lower the experimental acceleration value.
+
+\subsubsection{Uneven Table}
+The uneven table may increase or decrease the accleration of the cart as the tilted platform will result in a non-zero vertical force, resulting in a force applied horizontally which will directly affect the 
+
+
 
 
 
