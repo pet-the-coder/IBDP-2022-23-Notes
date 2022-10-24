@@ -1,0 +1,105 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage[makeroom]{cancel}
+\usepackage{mhchem}
+
+\graphicspath{ {../images/} }
+
+\renewcommand{\baselinestretch}{1.5} % line spacing
+\newcommand{\fline}{\par\noindent\rule{\textwidth}{0.1pt}} % horizontal line (wide)
+
+\title{Unit 2 Kinetics\\Supplementary Notes for Rate Equations}
+\author{Peter Zhang}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+% textbook page 376
+\section{Information Location}
+This information is stored in the textbook on pages Topic 16 page 375.
+
+\section{Rate Equations}
+iIn topic 6 the idea of a rate equation as a the mathematical differential expression that expresses rate in terms of concentration. FOr example, consider the following reaction:
+
+\begin{center}\ce{$x$A + $y$B -> $q$C + $p$D}\end{center}
+
+where $x$, $y$, $q$, and $p$ are the \textbf{stoichiometry coefficients}. The \textbf{rate equation} is expressed as follows:
+
+$$\ce{rate} = -\frac{1}{x}\frac{d\ce{[A]}}{dt} = -\frac{1}{y}\frac{d\ce{[B]}}{dt} = +\frac{1}{q}\frac{d\ce{[C]}}{dt} = +\frac{1}{p}\frac{d\ce{[D]}}{dt}$$
+
+Therefore the rate of hte reaction depends on the \textbf{concentrations of the reactants}
+\begin{itemize}
+\item rate $\alpha$ [A]
+\item rate $\alpha$ [B]
+\item rate $\alpha$ [A][B]
+\item rate = $k$[A][B]
+\end{itemize}
+
+
+This is the \textbf{rate equation} and general, it can be expressed in the form:
+
+\begin{center}\ce{rate = $k$[A]^m[B]^n}\end{center}
+
+\begin{itemize}
+\item $k$ = rate constant
+\item [A] = concentration of reactant A
+\item [B] = concentration of reactant B
+\item $m$ = exponendt in rate equation described as the \textbf{order with respect to reactant A}
+\item $n$ = exponent in rate equation described as the \textbf{order with respect to reactant B}
+\end{itemize}
+
+The variables, $m$ and $n$ represent the \textbf{orders} with respect to each reactant, which convey how sensitive the rate of reaction is to changes in the concentrations of A and B. The \textbf{overall order of the reaction} is then defined as the sum of $m$ and $n$.
+
+\begin{center}\ce{\textbf{overall reaction order} = $m$ + $n$} \end{center}
+
+Rate equatinos can only be determined experimentally becuase the orders can only be deduced empirically.
+
+\subsection{Example}
+With the following example of:
+
+$$\ce{NO2(g) + CO(g) -> NO(g) + CO2(g)}$$
+
+The rate equation for the reaction of \ce{NO2(g)} with \ce{CO(g)} can be found experimentally to be:
+
+$$\ce{rate} = k\ce{[NO2]}^{2}$$
+
+Hence, the rate equation $\ce{rate} = k\ce{[A]^{m}[B]^{n}}$ corresponds to $\ce{rate} = k\ce{[NO2]}^{2}$. This means that $m = 2$ and $n = 0$
+
+\begin{itemize}
+\item the order with respect to \ce{NO2(g)} is equal to 2 (two)
+\item the order with respect to \ce{CO(g)} is equal to 0 (zero)
+\item the overall order with respect to the equations is 2 (two)
+\item \textbf{NOTICE HOW THE OVERALL ORDER IS ALWAYS THE SAME}
+\end{itemize}
+
+One method of deducing the rate equations is to use the \textbf{method of inital rates}, the p[rinciple of which we introduced in topic 6. The value of the rate constant, $k$, is affected by temperature and its units are determined from the overall order of the reaction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
