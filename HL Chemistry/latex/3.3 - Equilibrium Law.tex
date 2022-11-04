@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage[makeroom]{cancel}
+\usepackage{mhchem}
+\usepackage{pst-plot}
+
+\graphicspath{ {../images/} }
+
+\renewcommand{\baselinestretch}{1.5} % line spacing
+\newcommand{\fline}{\par\noindent\rule{\textwidth}{0.1pt}} % horizontal line (wide)
+
+\title{Topic 6 Equilibrium\\Lesson 3 Equilibrium Law}
+\author{Peter Zhang}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% lesson 3
+\section{Equilibrium Law}
+\begin{itemize}
+\item I - initial [] of reactants
+\item C - change in [] (-) change for reactants (+) for products\\Losing reactants, gaining products | affected by coefficients
+\item E - equilib []\ \ Initial $\pm$ change
+\end{itemize}
+
+\subsection{Example 1}
+
+Determine $K_{c}$
+
+\begin{align*}
+\ce{SF2 + F2} &\rightleftharpoons \ce{SF6\ \ T=200^\circ C}\\
+I: 0.52\ \ 0.4 & \\
+C: \ \ \ \ & \\
+E: 0.37\ \ \ & 
+\end{align*}
+
+If the equilbrium concentration of \ce{SF2} is 0.37, then the change can be calculated. The change in reactants can be found with the givens: \ce{SF2} is just ([] equil - [] initial) = 0.37 - 0.52 = -0.15. Th 
+
+\begin{align*}
+\ce{SF2 + F2} &\rightleftharpoons \ce{SF6\ \ T=200^\circ C}\\
+I: 0.52\ \ 0.4 & \\
+C: -0.15\ -0.30& +0.15\\
+E: 0.37\ \ 0.1\ &|  0.15
+\end{align*}
+
+$$K_{c} = \ce{\frac{[SF6]}{[SF2][F2]^{2}}} = \frac{0.15}{0.37(0.1)^2} = 40.54$$
+
+
+\subsection{Example 2}
+\begin{align*}
+\ce{CO + 2H2} &\rightleftharpoons \ce{CH3OH}\\
+I: 0.42M\ 0.42M\ &| -
+C: -x\ \ -2x&|\ +x\\
+E: 0.42-x\ 0.42 * 2x &|\ x
+\end{align*}
+
+\ce{k_{c} = 5*10^{-4}}\ \ Find equilibrium []'s
+
+Note if $K_{c}$ is less than $1*10^{-3}$ we can assume $\ce{reactant}_{[initial]} \& \ce{reactant}_{[equilib]}$. The only time you will end up with an $x^{3}$ situation is if the coefficient is 3?
+
+Using the equation for $K_{c}$:
+\begin{align*}
+5*10^{4} &= \frac{x}{0.42(0.42)^{2}}\\
+x &= 3.7*10^{-5}mol^{-3} smth idk \\
+\ce{CH3OH]} &= 3.7x10^{-3}\\
+\ce{[CO]} &=
+collect from lesson slides &
+\end{align*}
+
+
+
+\section{Free Energy, $\triangle{G}$}
+\begin{itemize}
+\item If $\triangle{G}$ is negative - favor products
+\item If $\triangle{G}$ is positive - favor reactants
+\item If $\triangle{G}$ is zero - at equilibrium
+\end{itemize}
+
+$$\triangle{G} = -RT\ln{K_{c}}$$\ R = gas constant
+
+Just another factor to decide which side you favor.
+
+
+
+
+
+
+
+\end{document}
