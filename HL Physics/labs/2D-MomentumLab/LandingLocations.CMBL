@@ -20,8 +20,8 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>11/11/22 11:17</CreationDateTime>
-  <ModifiedDateTime>11/11/22 14:45</ModifiedDateTime>
-  <PageBounds>0 0 19.7777777778 10.8055555556</PageBounds>
+  <ModifiedDateTime>11/12/22 13:52</ModifiedDateTime>
+  <PageBounds>0 0 19.7222222222 10.8055555556</PageBounds>
   <ScreenResolution>0 0 1440 900</ScreenResolution>
   <MathType>0</MathType>
   <AllowOptionsDialogs>1</AllowOptionsDialogs>
@@ -48,11 +48,40 @@
     <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
     <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0xffffffff</PageGraphPaperLineColor>
     <PageReplayWindowPosition>0 48 451 446 635</PageReplayWindowPosition>
+    <PageTable>
+      <ID>107 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.0149579 0.0149233 2.45161 10.7906 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0x0 0x0 0x0| 0xffff 0x2e</BackgroundColor>
+      <AddNewData>1</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 2 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>System Font Regular</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <TableColumn> 125 0.8 </TableColumn>
+      <TableColumn> 127 0.8 </TableColumn>
+      <StartIndex> 0 </StartIndex>
+      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
+    </PageTable>
     <PageGraphCartesian>
       <ID>106 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>2.49352 0.0198977 19.7578 10.7857 </Bounds>
+      <Bounds>11.0495 0.0534395 19.7023 10.7857 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -80,8 +109,8 @@
       <GraphShowLegend>0</GraphShowLegend>
       <GraphShowCursorStatus>1</GraphShowCursorStatus>
       <GraphShowCursorDelta>1</GraphShowCursorDelta>
-      <GraphPlotBaseColumnID>102 </GraphPlotBaseColumnID>
-      <GraphPlotTraceIDPairs>1 102 104 </GraphPlotTraceIDPairs>
+      <GraphPlotBaseColumnID>125 </GraphPlotBaseColumnID>
+      <GraphPlotTraceIDPairs>1 125 127 </GraphPlotTraceIDPairs>
       <LogXAxis>0</LogXAxis>
       <LogYAxis>0</LogYAxis>
       <LogRightYAxis>0</LogRightYAxis>
@@ -96,21 +125,21 @@
       <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMajorTickColor>
       <GraphMinorTickStyle>0</GraphMinorTickStyle>
       <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMinorTickColor>
-      <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
-      <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
-      <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
+      <GraphPlotXAutoscale>0</GraphPlotXAutoscale>
+      <GraphPlotYAutoscale>0</GraphPlotYAutoscale>
+      <GraphPlotDoubleYAutoscale>0</GraphPlotDoubleYAutoscale>
       <GraphPlotXAutoscaleOnFirstData>0</GraphPlotXAutoscaleOnFirstData>
       <GraphPlotYAutoscaleOnFirstData>0</GraphPlotYAutoscaleOnFirstData>
       <GraphPlotDoubleYAutoscaleOnFirstData>0</GraphPlotDoubleYAutoscaleOnFirstData>
       <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
       <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
       <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
-      <GraphPlotXMin>0</GraphPlotXMin>
-      <GraphPlotXMax>10</GraphPlotXMax>
+      <GraphPlotXMin>-200</GraphPlotXMin>
+      <GraphPlotXMax>240</GraphPlotXMax>
       <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
       <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
-      <GraphPlotYMin>0</GraphPlotYMin>
-      <GraphPlotYMax>10</GraphPlotYMax>
+      <GraphPlotYMin>100</GraphPlotYMin>
+      <GraphPlotYMax>800</GraphPlotYMax>
       <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
       <GraphPlotDefaultXMax>100</GraphPlotDefaultXMax>
       <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
@@ -118,45 +147,16 @@
       <GraphPlotXLabel></GraphPlotXLabel>
       <GraphPlotYLabel></GraphPlotYLabel>
       <GraphDrawRainbow>0</GraphDrawRainbow>
-      <AudioTraceIDs>1 104 </AudioTraceIDs>
+      <AudioTraceIDs>1 127 </AudioTraceIDs>
       <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
     </PageGraphCartesian>
-    <PageTable>
-      <ID>107 </ID>
-      <BroadcastTo>0 </BroadcastTo>
-      <Visible>1</Visible>
-      <Bounds>0.015 0.0149233 2.45852 10.7906 </Bounds>
-      <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0 0</SubordinateOffset>
-      <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0x0 0x0 0x0| 0xffff 0x2e</BackgroundColor>
-      <AddNewData>1</AddNewData>
-      <Locked>0</Locked>
-      <AutoCreated>0</AutoCreated>
-      <GraphLinkedIDs>0 </GraphLinkedIDs>
-      <YLinkedIDs>0 </YLinkedIDs>
-      <Font>
-        <Size> 12 </Size>
-        <Justification> 2 </Justification>
-        <VerticalJustification> 0 </VerticalJustification>
-        <Styles> 0 0 0 0 0 0 </Styles>
-        <Family> 3 </Family>
-        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>System Font Regular</Name>
-        <Rotation>0</Rotation>
-      </Font>
-      <TableColumn> 102 0.8 </TableColumn>
-      <TableColumn> 104 0.8 </TableColumn>
-      <StartIndex> 0 </StartIndex>
-      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
-    </PageTable>
     <PagePicture>
-      <ID>108 </ID>
-      <BroadcastTo>0 </BroadcastTo>
+      <ID>123 </ID>
+      <BroadcastTo>1 136 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>5.38021188668 0.255268520779 12.4824311972 9.14554536648 </Bounds>
+      <Bounds>4.07560389411 0 12.5278701383 10.6855555556 </Bounds>
       <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0.23170755995 1.14016552078</SubordinateOffset>
+      <SubordinateOffset>-2.83093544244 3.87229643513</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -175,10 +175,10 @@
         <Rotation>0</Rotation>
       </Font>
       <QTAbsolutePath>M/Users/potatmaster/Documents/IBDP/Notes/HL Physics/labs/2D-MomentumLab/LandingLocations.PNG</QTAbsolutePath>
-      <QTRelativePath>M/Users/potatmaster/Documents/IBDP/Notes/HL Physics/labs/2D-MomentumLab/LandingLocations.PNG</QTRelativePath>
+      <QTRelativePath>MLandingLocations.PNG</QTRelativePath>
       <QTDeinterlaceMovie>0</QTDeinterlaceMovie>
       <QTCorrectForAspectRatio>0</QTCorrectForAspectRatio>
-      <QTMovieDataSet>0</QTMovieDataSet>
+      <QTMovieDataSet>124</QTMovieDataSet>
       <QTMovieTimeOffset>0</QTMovieTimeOffset>
       <QTMovieReplaySpeed>1</QTMovieReplaySpeed>
       <QTMovieControllerVisible>2</QTMovieControllerVisible>
@@ -190,20 +190,20 @@
       <VAMovieData>1</VAMovieData>
       <VAType>0</VAType>
       <VAMovieStartScalePoint>0 0 </VAMovieStartScalePoint>
-      <VAMovieEndScalePoint>0.00826764804506 0 </VAMovieEndScalePoint>
+      <VAMovieEndScalePoint>0.00993717866828 0 </VAMovieEndScalePoint>
       <VAMovieActualDistance>1</VAMovieActualDistance>
-      <VAMoviePixelDistance>0.00826764804506</VAMoviePixelDistance>
-      <VAMovieOrigin>0 0 </VAMovieOrigin>
-      <VAMovieDataSetInfo>0</VAMovieDataSetInfo>
-      <VAMovieDataSetID>0</VAMovieDataSetID>
+      <VAMoviePixelDistance>0.00993717866828</VAMoviePixelDistance>
+      <VAMovieOrigin>3.16621683075 9.27252143279 </VAMovieOrigin>
+      <VAMovieDataSetInfo>1 124 0 125 127 0 0</VAMovieDataSetInfo>
+      <VAMovieDataSetID>124</VAMovieDataSetID>
       <VAMovieBaseColumnID>0</VAMovieBaseColumnID>
-      <VAMovieIDXYPairs>0</VAMovieIDXYPairs>
-      <VAMovieGraphID>0</VAMovieGraphID>
-      <VAMovieMode>0</VAMovieMode>
+      <VAMovieIDXYPairs>1 125 127</VAMovieIDXYPairs>
+      <VAMovieGraphID>106</VAMovieGraphID>
+      <VAMovieMode>1</VAMovieMode>
       <VAMovieState>9</VAMovieState>
       <VAMovieToggleTrails>1</VAMovieToggleTrails>
-      <VAMovieShowAxis>0</VAMovieShowAxis>
-      <VAMovieShowScale>0</VAMovieShowScale>
+      <VAMovieShowAxis>1</VAMovieShowAxis>
+      <VAMovieShowScale>1</VAMovieShowScale>
       <VAMovieScaleUnits></VAMovieScaleUnits>
       <VAMovieSynchWithMovieOffset>1</VAMovieSynchWithMovieOffset>
       <VAMovieOffsetTime>0</VAMovieOffsetTime>
@@ -215,24 +215,53 @@
       <AnimateMeterLinkIDs>0 </AnimateMeterLinkIDs>
       <VAFrameAdvanceInterval>1</VAFrameAdvanceInterval>
     </PagePicture>
+    <PageHelperPhotoDistance>
+      <ID>136 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>5.28688389411 9.37883 5.8576462639 9.88271888889 </Bounds>
+      <SubordinateToID>123</SubordinateToID>
+      <SubordinateOffset>1.21128 9.37883</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 10 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>System Font Regular</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <PageHelperPhotoDistanceRatio0>0.019072 0.88246</PageHelperPhotoDistanceRatio0>
+      <PageHelperPhotoDistanceRatio1>0.242584 0.880442</PageHelperPhotoDistanceRatio1>
+      <PageHelperPhotoDistancePrecisionDecimal>0</PageHelperPhotoDistancePrecisionDecimal>
+      <PageHelperPhotoDistancePrecision>4</PageHelperPhotoDistancePrecision>
+    </PageHelperPhotoDistance>
   </Page>
   <CurrentPageIndex>0</CurrentPageIndex>
   <DataSet>
-    <ID>101 </ID>
+    <ID>124 </ID>
     <BroadcastTo>1 107 </BroadcastTo>
     <Visible>1</Visible>
-    <DataSetName>Data Set</DataSetName>
+    <DataSetName>VideoAnalysis</DataSetName>
     <DataSetComments></DataSetComments>
-    <DataSetPosition>0</DataSetPosition>
-    <DataSetSourceName></DataSetSourceName>
+    <DataSetPosition>2</DataSetPosition>
+    <DataSetSourceName>VideoAnalysis</DataSetSourceName>
     <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
     <DataSetHistogram>0</DataSetHistogram>
     <DataSetFFT>0</DataSetFFT>
     <DataSetLatest>0</DataSetLatest>
-    <DataSetAutoCreated>1</DataSetAutoCreated>
+    <DataSetAutoCreated>0</DataSetAutoCreated>
     <DataSetStoredRun>0</DataSetStoredRun>
     <DataSetPrediction>0</DataSetPrediction>
-    <DataSetVideoAnalysis>0</DataSetVideoAnalysis>
+    <DataSetVideoAnalysis>1</DataSetVideoAnalysis>
     <DataSetGraphMatch>0</DataSetGraphMatch>
     <Metadata>
       <DataMark>
@@ -241,28 +270,28 @@
       </DataTag>
     </Metadata>
     <DataColumn>
-      <ID>102 </ID>
+      <ID>125 </ID>
       <BroadcastTo>3 17 106 107 </BroadcastTo>
       <Visible>1</Visible>
       <DataObjectName>X</DataObjectName>
-      <DataObjectShortName>x</DataObjectShortName>
-      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x0</DataObjectColor>
+      <DataObjectShortName>X</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
       <DataObjectPrecision>0</DataObjectPrecision>
-      <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
       <ColumnUnits></ColumnUnits>
-      <ColumnProtected>0</ColumnProtected>
-      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
       <ColumnDataType>0</ColumnDataType>
-      <StartTime>1668183426</StartTime>
+      <StartTime>1668224157</StartTime>
       <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
       <ColumnGeoRole>n-a</ColumnGeoRole>
       <ColumnGeoDisplay>DD</ColumnGeoDisplay>
       <ColumnUserCreated>1</ColumnUserCreated>
-      <ColumnPPStyle>9</ColumnPPStyle>
+      <ColumnPPStyle>1</ColumnPPStyle>
       <ColumnPPSize>2</ColumnPPSize>
       <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
       <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
@@ -288,34 +317,49 @@
       <ColumnNumber>10</ColumnNumber>
       <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
-      <ColumnGroupID>103</ColumnGroupID>
+      <ColumnGroupID>126</ColumnGroupID>
       <ColumnCells>
-Z2 1:
+-182.313495171
+-182.096560405
+-184.697133083
+-161.566069195
+-170.077111873
+-176.922243987
+-167.532969532
+-171.007764575
+205.144491027
+216.248687928
+220.888704098
+222.266155581
+212.628601772
+214.857672638
+218.459503104
+219.686643724
 </ColumnCells>
     </DataColumn>
     <DataColumn>
-      <ID>104 </ID>
+      <ID>127 </ID>
       <BroadcastTo>3 17 106 107 </BroadcastTo>
       <Visible>1</Visible>
       <DataObjectName>Y</DataObjectName>
-      <DataObjectShortName>y</DataObjectShortName>
-      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0x0</DataObjectColor>
+      <DataObjectShortName>Y</DataObjectShortName>
+      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0xffffffff</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
       <DataObjectPrecision>0</DataObjectPrecision>
-      <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
       <ColumnUnits></ColumnUnits>
-      <ColumnProtected>0</ColumnProtected>
-      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>0</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
       <ColumnDataType>0</ColumnDataType>
-      <StartTime>1668183426</StartTime>
+      <StartTime>1668224157</StartTime>
       <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
       <ColumnGeoRole>n-a</ColumnGeoRole>
       <ColumnGeoDisplay>DD</ColumnGeoDisplay>
       <ColumnUserCreated>1</ColumnUserCreated>
-      <ColumnPPStyle>8</ColumnPPStyle>
+      <ColumnPPStyle>1</ColumnPPStyle>
       <ColumnPPSize>2</ColumnPPSize>
       <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
       <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
@@ -341,9 +385,24 @@ Z2 1:
       <ColumnNumber>10</ColumnNumber>
       <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
-      <ColumnGroupID>105</ColumnGroupID>
+      <ColumnGroupID>128</ColumnGroupID>
       <ColumnCells>
-Z2 1:
+104.711843455
+113.807577788
+117.15117123
+123.523064803
+118.580825076
+119.323845841
+111.274312043
+112.28297766
+709.015483541
+729.093933086
+722.785611352
+713.751476324
+715.665337973
+717.151385216
+723.010352538
+716.2993393
 </ColumnCells>
     </DataColumn>
   </DataSet>
@@ -416,9 +475,9 @@ Z2 1:
       <GoogleMapsOpenAnnotations>0</GoogleMapsOpenAnnotations>
       <GoogleMapsDrawLine>0</GoogleMapsDrawLine>
       <GoogleMapsDrawLineSingleColor>0</GoogleMapsDrawLineSingleColor>
-      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x0</GoogleMapsingleColor>
+      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x2e</GoogleMapsingleColor>
       <GoogleMapsDrawLineColumnID>0</GoogleMapsDrawLineColumnID>
-      <GoogleMapsDrawLineAutoScale>96</GoogleMapsDrawLineAutoScale>
+      <GoogleMapsDrawLineAutoScale>0</GoogleMapsDrawLineAutoScale>
       <GoogleMapsDrawLineSmooth>1</GoogleMapsDrawLineSmooth>
       <GoogleMapsDrawLineMin>0</GoogleMapsDrawLineMin>
       <GoogleMapsDrawLineMax>0</GoogleMapsDrawLineMax>
