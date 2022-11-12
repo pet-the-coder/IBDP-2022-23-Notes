@@ -2,10 +2,10 @@
   <FileCoherence>1</FileCoherence>
   <Version>3.16.2</Version>
   <charset>utf-8</charset>
-  <ApplicationBuildDateTime>Mar  8 2021 08:04:09</ApplicationBuildDateTime>
+  <ApplicationBuildDateTime>Mar  8 2021 07:58:58</ApplicationBuildDateTime>
   <FileName>LandingLocations.CMBL</FileName>
   <FileIDString>11/11/22 11:17potatmaster17598123902022052246</FileIDString>
-  <CreatorOS>1</CreatorOS>
+  <CreatorOS>2</CreatorOS>
   <CreatorApp>1</CreatorApp>
   <AbsoluteVersion>1</AbsoluteVersion>
   <Radians>1</Radians>
@@ -20,13 +20,13 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>11/11/22 11:17</CreationDateTime>
-  <ModifiedDateTime>11/12/22 13:52</ModifiedDateTime>
-  <PageBounds>0 0 19.7222222222 10.8055555556</PageBounds>
-  <ScreenResolution>0 0 1440 900</ScreenResolution>
+  <ModifiedDateTime>11/12/2022 16:24:05</ModifiedDateTime>
+  <PageBounds>0 0 17.4583333333 9.41666666667</PageBounds>
+  <ScreenResolution>0 0 1919 1079</ScreenResolution>
   <MathType>0</MathType>
   <AllowOptionsDialogs>1</AllowOptionsDialogs>
   <AllowAutoCurveFit>1</AllowAutoCurveFit>
-  <ReplayWindowPosition>0 48 451 446 635 1</ReplayWindowPosition>
+  <ReplayWindowPosition>0 63 540 337 694 1</ReplayWindowPosition>
   <ReplayWindowSpeed>1</ReplayWindowSpeed>
   <ReplayWindowRepeat>0</ReplayWindowRepeat>
   <SensorConflictEnabled>1</SensorConflictEnabled>
@@ -47,12 +47,12 @@
     <PageGraphPaper>0 </PageGraphPaper>
     <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
     <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0xffffffff</PageGraphPaperLineColor>
-    <PageReplayWindowPosition>0 48 451 446 635</PageReplayWindowPosition>
+    <PageReplayWindowPosition>0 63 540 337 694</PageReplayWindowPosition>
     <PageTable>
       <ID>107 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>0.0149579 0.0149233 2.45161 10.7906 </Bounds>
+      <Bounds>0.0132409 0.0129871 2.17019 9.3906 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -69,11 +69,11 @@
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
         <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>System Font Regular</Name>
+        <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
-      <TableColumn> 125 0.8 </TableColumn>
-      <TableColumn> 127 0.8 </TableColumn>
+      <TableColumn> 125 0.708169 </TableColumn>
+      <TableColumn> 127 0.708169 </TableColumn>
       <StartIndex> 0 </StartIndex>
       <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
     </PageTable>
@@ -81,7 +81,7 @@
       <ID>106 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>11.0495 0.0534395 19.7023 10.7857 </Bounds>
+      <Bounds>9.78114 0.0465061 17.4407 9.38633 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -98,7 +98,7 @@
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
         <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>System Font Regular</Name>
+        <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
       <GraphTitle></GraphTitle>
@@ -134,12 +134,12 @@
       <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
       <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
       <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
-      <GraphPlotXMin>-200</GraphPlotXMin>
-      <GraphPlotXMax>240</GraphPlotXMax>
+      <GraphPlotXMin>-11</GraphPlotXMin>
+      <GraphPlotXMax>13</GraphPlotXMax>
       <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
       <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
-      <GraphPlotYMin>100</GraphPlotYMin>
-      <GraphPlotYMax>800</GraphPlotYMax>
+      <GraphPlotYMin>4</GraphPlotYMin>
+      <GraphPlotYMax>42</GraphPlotYMax>
       <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
       <GraphPlotDefaultXMax>100</GraphPlotDefaultXMax>
       <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
@@ -154,9 +154,9 @@
       <ID>123 </ID>
       <BroadcastTo>1 136 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>4.07560389411 0 12.5278701383 10.6855555556 </Bounds>
+      <Bounds>2.13902 -0.0175153 9.55914033333 9.28167 </Bounds>
       <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>-2.83093544244 3.87229643513</SubordinateOffset>
+      <SubordinateOffset>-4.29969 3.8098</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -171,11 +171,11 @@
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
         <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>System Font Regular</Name>
+        <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
-      <QTAbsolutePath>M/Users/potatmaster/Documents/IBDP/Notes/HL Physics/labs/2D-MomentumLab/LandingLocations.PNG</QTAbsolutePath>
-      <QTRelativePath>MLandingLocations.PNG</QTRelativePath>
+      <QTAbsolutePath>WC:\Users\peter.zhang\Documents\IB DP\Notes+Homework\HL Physics\labs\2D-MomentumLab\LandingLocations.PNG</QTAbsolutePath>
+      <QTRelativePath>WLandingLocations.PNG</QTRelativePath>
       <QTDeinterlaceMovie>0</QTDeinterlaceMovie>
       <QTCorrectForAspectRatio>0</QTCorrectForAspectRatio>
       <QTMovieDataSet>124</QTMovieDataSet>
@@ -184,27 +184,27 @@
       <QTMovieControllerVisible>2</QTMovieControllerVisible>
       <QTTopMovieControllerVisible>2</QTTopMovieControllerVisible>
       <QTTopMovieControllerVisible_3_5>2</QTTopMovieControllerVisible_3_5>
-      <QTMovieControlOffsets>0 0 0.416666666667 0 </QTMovieControlOffsets>
+      <QTMovieControlOffsets>0 0 0.427083333333 0 </QTMovieControlOffsets>
       <QTMovieVAEnabled>1</QTMovieVAEnabled>
       <QTMovieCurrentMovieTime>0</QTMovieCurrentMovieTime>
       <VAMovieData>1</VAMovieData>
       <VAType>0</VAType>
-      <VAMovieStartScalePoint>0 0 </VAMovieStartScalePoint>
-      <VAMovieEndScalePoint>0.00993717866828 0 </VAMovieEndScalePoint>
-      <VAMovieActualDistance>1</VAMovieActualDistance>
-      <VAMoviePixelDistance>0.00993717866828</VAMoviePixelDistance>
-      <VAMovieOrigin>3.16621683075 9.27252143279 </VAMovieOrigin>
+      <VAMovieStartScalePoint>0.126813 8.22085 </VAMovieStartScalePoint>
+      <VAMovieEndScalePoint>1.68931 8.21043 </VAMovieEndScalePoint>
+      <VAMovieActualDistance>10</VAMovieActualDistance>
+      <VAMoviePixelDistance>1.56253174413</VAMoviePixelDistance>
+      <VAMovieOrigin>2.75542 8.06948 </VAMovieOrigin>
       <VAMovieDataSetInfo>1 124 0 125 127 0 0</VAMovieDataSetInfo>
       <VAMovieDataSetID>124</VAMovieDataSetID>
       <VAMovieBaseColumnID>0</VAMovieBaseColumnID>
       <VAMovieIDXYPairs>1 125 127</VAMovieIDXYPairs>
       <VAMovieGraphID>106</VAMovieGraphID>
-      <VAMovieMode>1</VAMovieMode>
+      <VAMovieMode>4</VAMovieMode>
       <VAMovieState>9</VAMovieState>
       <VAMovieToggleTrails>1</VAMovieToggleTrails>
       <VAMovieShowAxis>1</VAMovieShowAxis>
       <VAMovieShowScale>1</VAMovieShowScale>
-      <VAMovieScaleUnits></VAMovieScaleUnits>
+      <VAMovieScaleUnits>cm</VAMovieScaleUnits>
       <VAMovieSynchWithMovieOffset>1</VAMovieSynchWithMovieOffset>
       <VAMovieOffsetTime>0</VAMovieOffsetTime>
       <VAMovieMultiplePointsPerFrame>1</VAMovieMultiplePointsPerFrame>
@@ -219,9 +219,9 @@
       <ID>136 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>5.28688389411 9.37883 5.8576462639 9.88271888889 </Bounds>
+      <Bounds>3.19574 8.1596647 3.83224683594 8.49095050729 </Bounds>
       <SubordinateToID>123</SubordinateToID>
-      <SubordinateOffset>1.21128 9.37883</SubordinateOffset>
+      <SubordinateOffset>1.05672 8.17718</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -236,7 +236,7 @@
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
         <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>System Font Regular</Name>
+        <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
       <PageHelperPhotoDistanceRatio0>0.019072 0.88246</PageHelperPhotoDistanceRatio0>
@@ -277,11 +277,11 @@
       <DataObjectShortName>X</DataObjectShortName>
       <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
-      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
-      <DataObjectPrecision>0</DataObjectPrecision>
+      <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
       <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
-      <ColumnUnits></ColumnUnits>
+      <ColumnUnits>cm</ColumnUnits>
       <ColumnProtected>1</ColumnProtected>
       <ColumnUserEditable>0</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
@@ -319,22 +319,22 @@
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
       <ColumnGroupID>126</ColumnGroupID>
       <ColumnCells>
--182.313495171
--182.096560405
--184.697133083
--161.566069195
--170.077111873
--176.922243987
--167.532969532
--171.007764575
-205.144491027
-216.248687928
-220.888704098
-222.266155581
-212.628601772
-214.857672638
-218.459503104
-219.686643724
+-10.0902023799
+-10.0781960515
+-10.2221256306
+-8.94192903475
+-9.41297558566
+-9.79182174996
+-9.27216916274
+-9.46448287589
+11.3537916084
+11.9683571615
+12.2251604341
+12.3013959548
+11.7680022623
+11.8913709473
+12.0907154792
+12.158631994
 </ColumnCells>
     </DataColumn>
     <DataColumn>
@@ -345,11 +345,11 @@
       <DataObjectShortName>Y</DataObjectShortName>
       <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0xffffffff</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
-      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
-      <DataObjectPrecision>0</DataObjectPrecision>
+      <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
       <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
-      <ColumnUnits></ColumnUnits>
+      <ColumnUnits>cm</ColumnUnits>
       <ColumnProtected>1</ColumnProtected>
       <ColumnUserEditable>0</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
@@ -387,22 +387,22 @@
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
       <ColumnGroupID>128</ColumnGroupID>
       <ColumnCells>
-104.711843455
-113.807577788
-117.15117123
-123.523064803
-118.580825076
-119.323845841
-111.274312043
-112.28297766
-709.015483541
-729.093933086
-722.785611352
-713.751476324
-715.665337973
-717.151385216
-723.010352538
-716.2993393
+5.79531257978
+6.29871908914
+6.48377140507
+6.83642602142
+6.56289608328
+6.60401882016
+6.15851463514
+6.21433957667
+39.2407030136
+40.3519516307
+40.0028154194
+39.5028181445
+39.6087414682
+39.6909872582
+40.0152537968
+39.6438304872
 </ColumnCells>
     </DataColumn>
   </DataSet>
