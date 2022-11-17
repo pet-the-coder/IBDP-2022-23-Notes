@@ -1,4 +1,4 @@
-<Document>
+﻿<Document>
   <FileCoherence>1</FileCoherence>
   <Version>3.16.2</Version>
   <charset>utf-8</charset>
@@ -20,7 +20,7 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>11/11/22 11:17</CreationDateTime>
-  <ModifiedDateTime>11/12/2022 16:24:05</ModifiedDateTime>
+  <ModifiedDateTime>11/13/2022 15:01:25</ModifiedDateTime>
   <PageBounds>0 0 17.4583333333 9.41666666667</PageBounds>
   <ScreenResolution>0 0 1919 1079</ScreenResolution>
   <MathType>0</MathType>
@@ -48,23 +48,23 @@
     <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
     <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0xffffffff</PageGraphPaperLineColor>
     <PageReplayWindowPosition>0 63 540 337 694</PageReplayWindowPosition>
-    <PageTable>
-      <ID>107 </ID>
-      <BroadcastTo>0 </BroadcastTo>
+    <PagePicture>
+      <ID>123 </ID>
+      <BroadcastTo>1 136 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>0.0132409 0.0129871 2.17019 9.3906 </Bounds>
+      <Bounds>2.13902 -0.0174827752924 9.54615474452 9.26443457709 </Bounds>
       <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0 0</SubordinateOffset>
+      <SubordinateOffset>-4.29969 3.8098</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0x0 0x0 0x0| 0xffff 0x2e</BackgroundColor>
-      <AddNewData>1</AddNewData>
+      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
+      <AddNewData>0</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>0</AutoCreated>
       <GraphLinkedIDs>0 </GraphLinkedIDs>
       <YLinkedIDs>0 </YLinkedIDs>
       <Font>
         <Size> 12 </Size>
-        <Justification> 2 </Justification>
+        <Justification> 0 </Justification>
         <VerticalJustification> 0 </VerticalJustification>
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
@@ -72,16 +72,81 @@
         <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
-      <TableColumn> 125 0.708169 </TableColumn>
-      <TableColumn> 127 0.708169 </TableColumn>
-      <StartIndex> 0 </StartIndex>
-      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
-    </PageTable>
+      <QTAbsolutePath>WC:\Users\peter.zhang\Documents\IB DP\Notes+Homework\HL Physics\labs\2D-MomentumLab\LandingLocations.PNG</QTAbsolutePath>
+      <QTRelativePath>WLandingLocations.PNG</QTRelativePath>
+      <QTDeinterlaceMovie>0</QTDeinterlaceMovie>
+      <QTCorrectForAspectRatio>0</QTCorrectForAspectRatio>
+      <QTMovieDataSet>124</QTMovieDataSet>
+      <QTMovieTimeOffset>0</QTMovieTimeOffset>
+      <QTMovieReplaySpeed>1</QTMovieReplaySpeed>
+      <QTMovieControllerVisible>2</QTMovieControllerVisible>
+      <QTTopMovieControllerVisible>2</QTTopMovieControllerVisible>
+      <QTTopMovieControllerVisible_3_5>2</QTTopMovieControllerVisible_3_5>
+      <QTMovieControlOffsets>0 0 0.427083333333 0 </QTMovieControlOffsets>
+      <QTMovieVAEnabled>1</QTMovieVAEnabled>
+      <QTMovieCurrentMovieTime>0</QTMovieCurrentMovieTime>
+      <VAMovieData>1</VAMovieData>
+      <VAType>0</VAType>
+      <VAMovieStartScalePoint>0.12657751698 8.20558444688 </VAMovieStartScalePoint>
+      <VAMovieEndScalePoint>1.6861730675 8.1951837961 </VAMovieEndScalePoint>
+      <VAMovieActualDistance>10</VAMovieActualDistance>
+      <VAMoviePixelDistance>1.55963023013</VAMoviePixelDistance>
+      <VAMovieOrigin>2.75030337454 8.05449553056 </VAMovieOrigin>
+      <VAMovieDataSetInfo>1 124 0 125 127 0 0</VAMovieDataSetInfo>
+      <VAMovieDataSetID>124</VAMovieDataSetID>
+      <VAMovieBaseColumnID>0</VAMovieBaseColumnID>
+      <VAMovieIDXYPairs>1 125 127</VAMovieIDXYPairs>
+      <VAMovieGraphID>106</VAMovieGraphID>
+      <VAMovieMode>4</VAMovieMode>
+      <VAMovieState>9</VAMovieState>
+      <VAMovieToggleTrails>1</VAMovieToggleTrails>
+      <VAMovieShowAxis>1</VAMovieShowAxis>
+      <VAMovieShowScale>1</VAMovieShowScale>
+      <VAMovieScaleUnits>cm</VAMovieScaleUnits>
+      <VAMovieSynchWithMovieOffset>1</VAMovieSynchWithMovieOffset>
+      <VAMovieOffsetTime>0</VAMovieOffsetTime>
+      <VAMovieMultiplePointsPerFrame>1</VAMovieMultiplePointsPerFrame>
+      <VAMovieRotationAngle>0</VAMovieRotationAngle>
+      <VAMovieRotationAngleParamterName></VAMovieRotationAngleParamterName>
+      <VAFirstPointDefinesTimeZero>0</VAFirstPointDefinesTimeZero>
+      <VAFirstPointOffsetSeconds>0</VAFirstPointOffsetSeconds>
+      <AnimateMeterLinkIDs>0 </AnimateMeterLinkIDs>
+      <VAFrameAdvanceInterval>1</VAFrameAdvanceInterval>
+    </PagePicture>
+    <PageHelperPhotoDistance>
+      <ID>136 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>3.19381490739 8.14473004827 3.83032174332 8.47601585557 </Bounds>
+      <SubordinateToID>123</SubordinateToID>
+      <SubordinateOffset>1.05479490738 8.16221282357</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 10 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <PageHelperPhotoDistanceRatio0>0.019072 0.88246</PageHelperPhotoDistanceRatio0>
+      <PageHelperPhotoDistanceRatio1>0.242584 0.880442</PageHelperPhotoDistanceRatio1>
+      <PageHelperPhotoDistancePrecisionDecimal>0</PageHelperPhotoDistancePrecisionDecimal>
+      <PageHelperPhotoDistancePrecision>4</PageHelperPhotoDistancePrecision>
+    </PageHelperPhotoDistance>
     <PageGraphCartesian>
       <ID>106 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>9.78114 0.0465061 17.4407 9.38633 </Bounds>
+      <Bounds>9.78114000002 0.0464197413704 17.4407 9.36890023067 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -150,23 +215,23 @@
       <AudioTraceIDs>1 127 </AudioTraceIDs>
       <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
     </PageGraphCartesian>
-    <PagePicture>
-      <ID>123 </ID>
-      <BroadcastTo>1 136 </BroadcastTo>
+    <PageTable>
+      <ID>107 </ID>
+      <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>2.13902 -0.0175153 9.55914033333 9.28167 </Bounds>
+      <Bounds>0.0132409 0.0129629838484 2.17019 9.37316230157 </Bounds>
       <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>-4.29969 3.8098</SubordinateOffset>
+      <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
-      <AddNewData>0</AddNewData>
+      <BackgroundColor>0x0 0x0 0x0| 0xffff 0x2e</BackgroundColor>
+      <AddNewData>1</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>0</AutoCreated>
       <GraphLinkedIDs>0 </GraphLinkedIDs>
       <YLinkedIDs>0 </YLinkedIDs>
       <Font>
         <Size> 12 </Size>
-        <Justification> 0 </Justification>
+        <Justification> 2 </Justification>
         <VerticalJustification> 0 </VerticalJustification>
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
@@ -174,76 +239,11 @@
         <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
-      <QTAbsolutePath>WC:\Users\peter.zhang\Documents\IB DP\Notes+Homework\HL Physics\labs\2D-MomentumLab\LandingLocations.PNG</QTAbsolutePath>
-      <QTRelativePath>WLandingLocations.PNG</QTRelativePath>
-      <QTDeinterlaceMovie>0</QTDeinterlaceMovie>
-      <QTCorrectForAspectRatio>0</QTCorrectForAspectRatio>
-      <QTMovieDataSet>124</QTMovieDataSet>
-      <QTMovieTimeOffset>0</QTMovieTimeOffset>
-      <QTMovieReplaySpeed>1</QTMovieReplaySpeed>
-      <QTMovieControllerVisible>2</QTMovieControllerVisible>
-      <QTTopMovieControllerVisible>2</QTTopMovieControllerVisible>
-      <QTTopMovieControllerVisible_3_5>2</QTTopMovieControllerVisible_3_5>
-      <QTMovieControlOffsets>0 0 0.427083333333 0 </QTMovieControlOffsets>
-      <QTMovieVAEnabled>1</QTMovieVAEnabled>
-      <QTMovieCurrentMovieTime>0</QTMovieCurrentMovieTime>
-      <VAMovieData>1</VAMovieData>
-      <VAType>0</VAType>
-      <VAMovieStartScalePoint>0.126813 8.22085 </VAMovieStartScalePoint>
-      <VAMovieEndScalePoint>1.68931 8.21043 </VAMovieEndScalePoint>
-      <VAMovieActualDistance>10</VAMovieActualDistance>
-      <VAMoviePixelDistance>1.56253174413</VAMoviePixelDistance>
-      <VAMovieOrigin>2.75542 8.06948 </VAMovieOrigin>
-      <VAMovieDataSetInfo>1 124 0 125 127 0 0</VAMovieDataSetInfo>
-      <VAMovieDataSetID>124</VAMovieDataSetID>
-      <VAMovieBaseColumnID>0</VAMovieBaseColumnID>
-      <VAMovieIDXYPairs>1 125 127</VAMovieIDXYPairs>
-      <VAMovieGraphID>106</VAMovieGraphID>
-      <VAMovieMode>4</VAMovieMode>
-      <VAMovieState>9</VAMovieState>
-      <VAMovieToggleTrails>1</VAMovieToggleTrails>
-      <VAMovieShowAxis>1</VAMovieShowAxis>
-      <VAMovieShowScale>1</VAMovieShowScale>
-      <VAMovieScaleUnits>cm</VAMovieScaleUnits>
-      <VAMovieSynchWithMovieOffset>1</VAMovieSynchWithMovieOffset>
-      <VAMovieOffsetTime>0</VAMovieOffsetTime>
-      <VAMovieMultiplePointsPerFrame>1</VAMovieMultiplePointsPerFrame>
-      <VAMovieRotationAngle>0</VAMovieRotationAngle>
-      <VAMovieRotationAngleParamterName></VAMovieRotationAngleParamterName>
-      <VAFirstPointDefinesTimeZero>0</VAFirstPointDefinesTimeZero>
-      <VAFirstPointOffsetSeconds>0</VAFirstPointOffsetSeconds>
-      <AnimateMeterLinkIDs>0 </AnimateMeterLinkIDs>
-      <VAFrameAdvanceInterval>1</VAFrameAdvanceInterval>
-    </PagePicture>
-    <PageHelperPhotoDistance>
-      <ID>136 </ID>
-      <BroadcastTo>0 </BroadcastTo>
-      <Visible>1</Visible>
-      <Bounds>3.19574 8.1596647 3.83224683594 8.49095050729 </Bounds>
-      <SubordinateToID>123</SubordinateToID>
-      <SubordinateOffset>1.05672 8.17718</SubordinateOffset>
-      <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
-      <AddNewData>0</AddNewData>
-      <Locked>0</Locked>
-      <AutoCreated>0</AutoCreated>
-      <GraphLinkedIDs>0 </GraphLinkedIDs>
-      <YLinkedIDs>0 </YLinkedIDs>
-      <Font>
-        <Size> 10 </Size>
-        <Justification> 0 </Justification>
-        <VerticalJustification> 0 </VerticalJustification>
-        <Styles> 0 0 0 0 0 0 </Styles>
-        <Family> 3 </Family>
-        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>Arial</Name>
-        <Rotation>0</Rotation>
-      </Font>
-      <PageHelperPhotoDistanceRatio0>0.019072 0.88246</PageHelperPhotoDistanceRatio0>
-      <PageHelperPhotoDistanceRatio1>0.242584 0.880442</PageHelperPhotoDistanceRatio1>
-      <PageHelperPhotoDistancePrecisionDecimal>0</PageHelperPhotoDistancePrecisionDecimal>
-      <PageHelperPhotoDistancePrecision>4</PageHelperPhotoDistancePrecision>
-    </PageHelperPhotoDistance>
+      <TableColumn> 125 0.708169000001 </TableColumn>
+      <TableColumn> 127 0.708169000001 </TableColumn>
+      <StartIndex> 0 </StartIndex>
+      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
+    </PageTable>
   </Page>
   <CurrentPageIndex>0</CurrentPageIndex>
   <DataSet>
@@ -341,8 +341,8 @@
       <ID>127 </ID>
       <BroadcastTo>3 17 106 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>Y</DataObjectName>
-      <DataObjectShortName>Y</DataObjectShortName>
+      <DataObjectName>Z</DataObjectName>
+      <DataObjectShortName>Z</DataObjectShortName>
       <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0xffffffff</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
