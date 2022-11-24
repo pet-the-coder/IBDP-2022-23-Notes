@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage[makeroom]{cancel}
+\usepackage{mhchem}
+\usepackage{pst-plot}
+
+\graphicspath{ {../images/} }
+
+\renewcommand{\baselinestretch}{1.5} % line spacing
+\newcommand{\fline}{\par\noindent\rule{\textwidth}{0.1pt}} % horizontal line (wide)
+
+\title{Topic 8/18 Acids \& Bases\\Lesson 2 - pH Calculations}
+\author{Peter Zhang}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% lesson 
+\section{pH}
+\textbf{pH} is just the $-\log $ of the concentration of \ce{H+} ions. \textbf{pOH} is the $-\log $ of the concentration of \ce{OH-} ions.
+
+The pH scale is from 0-14 @298K and pH changes with temperature. When performing experiments in reactions with greater temperature change / enthalpy change, the pH will be affected.
+\begin{itemize}
+\item pH $<$ 7 = acidic
+\item pH $>$ 7 = basic
+\item pH = 7 = neutral
+\end{itemize}
+The pH value can be changed by \textbf{diluting} a solution x10 factor. \\Ex: 10mL of acid with 90mL of \ce{H2O}: such as \ce{PH3 -> ph = 4}.\\If you overdilute your solution, as long as you dilute the solution by an x10 factor, the pH will experience a great change. 
+
+\section{Acid Base Neutralization}
+\ce{HCl + NaOH $\rightleftharpoons$ NaCl + H2O}
+\ce{H+(aq) + \cancel{\ce{Cl-(aq)}} + \cancel{\ce{Na+(aq)}} + OH-(aq) $\rightleftharpoons$ \cancel{\ce{Na+(aq)}} + \cancel{\ce{Cl-(aq)}} + H2O(l)}
+\ce{H+(aq) + OH-(aq) $\rightleftharpoons$ H2O(l)}
+\ce{H2O $\rightleftharpoons$ H+ + OH-}
+
+Now we can find the equilibrium constant: $K_{c}$
+\ce{K_{c} = \frac{\ce{[H+][OH-]}}{\ce{[H2O]}}}
+Since only a small concentration of \ce{H2O} ionizes, we move it:
+\ce{K_{c}\ce{[H2O]} = \ce{[H+][OH-]}}
+
+Since $pKw = pH + pOH$ and $14 = pH + pOH$, we know that $pKw$ must be the same as $pH + pOH$, so $pKw = 14$
+
+\ce{K_{w} = \ce{[H+][OH-]} = 1*10^{-14}} 
+This is the same as:
+\ce{pKw = $-\log{(\ce{[H+][OH-]})}$}
+
+\subsection{IMPORTANT WHEN REPORTING VALUES}
+\textbf{WE ONLY REPORT VALUES AS PH}, not pOH or other types. We only use pH value.
+
+
+\subsection{Example}
+\begin{enumerate}
+    \item Find pH, [OH-] + pOH if [H+] = $3.7*10^{-9}moldm^{-3}$\begin{align*}
+        1.0*10^{-14} &= \ce{[H+][OH-]}\\
+        \ce{[OH-]} &= \frac{1*10^{-14}}{3.7*10^{-9}}\\
+        &= 2.7*10^{-6}moldm^{-3}\\
+        &\\
+        pOH &= -\log{OH-}\\
+        &= 5.57
+    \end{align*}
+\end{enumerate}
+
+\subsection{Acid \& Base Strenghts}
+Strong acids + bases fully dissociate / ionize\\
+Example: \ce{HCl -> H+ + CL-} \\\ce{NaOH -> Na+ + OH-}
+
+Weak acids + bases only partially dissociate / ionize
+Exapmle: \ce{CH3COOH -> CH3COO- + H+} \\\ce{Na2CO3 -> 2Na+ + CO3^{-2}}
+
+The closer a pH value is to zero, the stronge rthe acidic properties, however concentration is not equal to pH. \\
+Example: pH of a lemon is 2 but we eat it and we don't die.
+
+
+
+
+\end{document}
