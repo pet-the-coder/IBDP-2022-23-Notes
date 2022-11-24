@@ -14,6 +14,7 @@
 
 \graphicspath{ {../images/} }
 
+\renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\baselinestretch}{1.5} % line spacing
 \newcommand{\fline}{\par\noindent\rule{\textwidth}{0.1pt}} % horizontal line (wide)
 
@@ -39,13 +40,15 @@ The pH scale is from 0-14 @298K and pH changes with temperature. When performing
 The pH value can be changed by \textbf{diluting} a solution x10 factor. \\Ex: 10mL of acid with 90mL of \ce{H2O}: such as \ce{PH3 -> ph = 4}.\\If you overdilute your solution, as long as you dilute the solution by an x10 factor, the pH will experience a great change. 
 
 \section{Acid Base Neutralization}
-\ce{HCl + NaOH $\rightleftharpoons$ NaCl + H2O}
-\ce{H+(aq) + \cancel{\ce{Cl-(aq)}} + \cancel{\ce{Na+(aq)}} + OH-(aq) $\rightleftharpoons$ \cancel{\ce{Na+(aq)}} + \cancel{\ce{Cl-(aq)}} + H2O(l)}
-\ce{H+(aq) + OH-(aq) $\rightleftharpoons$ H2O(l)}
-\ce{H2O $\rightleftharpoons$ H+ + OH-}
+\begin{align*}
+\ce{HCl + NaOH &$\rightleftharpoons$ NaCl + H2O}\\
+\ce{H+(aq) + \cancel{\ce{Cl-(aq)}} + \cancel{\ce{Na+(aq)}} + OH-(aq) &$\rightleftharpoons$ \cancel{\ce{Na+(aq)}} + \cancel{\ce{Cl-(aq)}} + H2O(l)}\\
+\ce{H+(aq) + OH-(aq) &$\rightleftharpoons$ H2O(l)}\\
+\ce{H2O &$\rightleftharpoons$ H+ + OH^{-}}\\
+\end{align*}
 
 Now we can find the equilibrium constant: $K_{c}$
-\ce{K_{c} = \frac{\ce{[H+][OH-]}}{\ce{[H2O]}}}
+\ce{K_{c} = \frac{\ce{[H+][OH^-}}{\ce{[H2O]}}}
 Since only a small concentration of \ce{H2O} ionizes, we move it:
 \ce{K_{c}\ce{[H2O]} = \ce{[H+][OH-]}}
 
