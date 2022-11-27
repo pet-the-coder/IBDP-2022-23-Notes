@@ -1,11 +1,11 @@
-﻿<Document>
+<Document>
   <FileCoherence>1</FileCoherence>
   <Version>3.16.2</Version>
   <charset>utf-8</charset>
-  <ApplicationBuildDateTime>Mar  8 2021 07:58:58</ApplicationBuildDateTime>
+  <ApplicationBuildDateTime>Mar  8 2021 08:04:09</ApplicationBuildDateTime>
   <FileName>Front View.cmbl</FileName>
   <FileIDString>11/21/2022 21:07:36Your name here2584324287</FileIDString>
-  <CreatorOS>2</CreatorOS>
+  <CreatorOS>1</CreatorOS>
   <CreatorApp>1</CreatorApp>
   <AbsoluteVersion>1</AbsoluteVersion>
   <Radians>1</Radians>
@@ -20,13 +20,13 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>11/21/2022 21:07:36</CreationDateTime>
-  <ModifiedDateTime>11/24/2022 22:07:49</ModifiedDateTime>
-  <PageBounds>0 0 17.4583333333 9.41666666667</PageBounds>
-  <ScreenResolution>0 0 1919 1079</ScreenResolution>
+  <ModifiedDateTime>11/25/22 09:57</ModifiedDateTime>
+  <PageBounds>0 0 19.7222222222 10.8611111111</PageBounds>
+  <ScreenResolution>0 0 1440 900</ScreenResolution>
   <MathType>0</MathType>
   <AllowOptionsDialogs>1</AllowOptionsDialogs>
   <AllowAutoCurveFit>1</AllowAutoCurveFit>
-  <ReplayWindowPosition>0 80 123 354 277 1</ReplayWindowPosition>
+  <ReplayWindowPosition>0 60 102 458 286 1</ReplayWindowPosition>
   <ReplayWindowSpeed>1</ReplayWindowSpeed>
   <ReplayWindowRepeat>0</ReplayWindowRepeat>
   <SensorConflictEnabled>1</SensorConflictEnabled>
@@ -47,12 +47,12 @@
     <PageGraphPaper>0 </PageGraphPaper>
     <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
     <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0xffffffff</PageGraphPaperLineColor>
-    <PageReplayWindowPosition>0 80 123 354 277</PageReplayWindowPosition>
+    <PageReplayWindowPosition>0 60 102 458 286</PageReplayWindowPosition>
     <PageGraphCartesian>
       <ID>106 </ID>
       <BroadcastTo>1 199 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>8.52680666669 0 17.4583333333 4.61701333333 </Bounds>
+      <Bounds>9.63251031561 0 19.7222222222 5.32522776794 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>2.69791666667 -3.510417</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -125,9 +125,9 @@
       <ID>199 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>14.3184766667 2.32292 16.1409507878 3.81151375 </Bounds>
+      <Bounds>16.1752083268 2.67923811209 18.0919631011 4.57201588987 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>5.79167000001 2.32292</SubordinateOffset>
+      <SubordinateOffset>6.54269801116 2.67923811209</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -164,42 +164,13 @@
       <ManualCurveFitWeightColumnId>4294967295</ManualCurveFitWeightColumnId>
       <CurveFitCorrelation>0.984123899077</CurveFitCorrelation>
     </PageHelperDataCurveFit>
-    <PageTable>
-      <ID>107 </ID>
-      <BroadcastTo>0 </BroadcastTo>
-      <Visible>1</Visible>
-      <Bounds>0.00984081000002 0.0108076 2.04172 9.40586 </Bounds>
-      <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0 0</SubordinateOffset>
-      <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0xffffffff</BackgroundColor>
-      <AddNewData>1</AddNewData>
-      <Locked>0</Locked>
-      <AutoCreated>0</AutoCreated>
-      <GraphLinkedIDs>0 </GraphLinkedIDs>
-      <YLinkedIDs>0 </YLinkedIDs>
-      <Font>
-        <Size> 12 </Size>
-        <Justification> 2 </Justification>
-        <VerticalJustification> 0 </VerticalJustification>
-        <Styles> 0 0 0 0 0 0 </Styles>
-        <Family> 3 </Family>
-        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>Arial</Name>
-        <Rotation>0</Rotation>
-      </Font>
-      <TableColumn> 110 0.699791000001 </TableColumn>
-      <TableColumn> 112 0.699791000001 </TableColumn>
-      <StartIndex> 0 </StartIndex>
-      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
-    </PageTable>
     <PagePicture>
       <ID>108 </ID>
       <BroadcastTo>1 186 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>1.98958333333 3.00585666667 10.5743334704 9.15666666667 </Bounds>
+      <Bounds>3.00025898264 3.56739462119 12.6324283234 10.5158036904 </Bounds>
       <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0.0729166666633 4.760416</SubordinateOffset>
+      <SubordinateOffset>0.825595431854 4.86087859562</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -217,8 +188,8 @@
         <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
-      <QTAbsolutePath>WC:\Users\peter.zhang\Documents\IB DP\Notes+Homework\HL Math\Math IA\i_front view.JPG</QTAbsolutePath>
-      <QTRelativePath>Wi_front view.JPG</QTRelativePath>
+      <QTAbsolutePath>M/Users/potatmaster/Documents/IBDP/Notes/HL Math/Math IA/i_front view.JPG</QTAbsolutePath>
+      <QTRelativePath>Mi_front view.JPG</QTRelativePath>
       <QTDeinterlaceMovie>0</QTDeinterlaceMovie>
       <QTCorrectForAspectRatio>0</QTCorrectForAspectRatio>
       <QTMovieDataSet>109</QTMovieDataSet>
@@ -227,16 +198,16 @@
       <QTMovieControllerVisible>2</QTMovieControllerVisible>
       <QTTopMovieControllerVisible>2</QTTopMovieControllerVisible>
       <QTTopMovieControllerVisible_3_5>2</QTTopMovieControllerVisible_3_5>
-      <QTMovieControlOffsets>0 0 0.427083333333 0 </QTMovieControlOffsets>
+      <QTMovieControlOffsets>0 0 0.416666666667 0 </QTMovieControlOffsets>
       <QTMovieVAEnabled>1</QTMovieVAEnabled>
       <QTMovieCurrentMovieTime>0</QTMovieCurrentMovieTime>
       <VAMovieData>1</VAMovieData>
       <VAType>0</VAType>
-      <VAMovieStartScalePoint>4.12376385319 1.40944574397 </VAMovieStartScalePoint>
-      <VAMovieEndScalePoint>6.76491031501 1.52859181541 </VAMovieEndScalePoint>
+      <VAMovieStartScalePoint>4.65850809192 1.59221396694 </VAMovieStartScalePoint>
+      <VAMovieEndScalePoint>7.64214212198 1.72681016538 </VAMovieEndScalePoint>
       <VAMovieActualDistance>7</VAMovieActualDistance>
-      <VAMoviePixelDistance>2.64383252479</VAMoviePixelDistance>
-      <VAMovieOrigin>2.8055594693 3.12856341893 </VAMovieOrigin>
+      <VAMoviePixelDistance>2.9866684051</VAMoviePixelDistance>
+      <VAMovieOrigin>3.16936710136 3.53425620914 </VAMovieOrigin>
       <VAMovieDataSetInfo>1 109 0 110 112 0 0</VAMovieDataSetInfo>
       <VAMovieDataSetID>109</VAMovieDataSetID>
       <VAMovieBaseColumnID>0</VAMovieBaseColumnID>
@@ -262,9 +233,9 @@
       <ID>186 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>7.53565333333 5.02945666667 8.12931348958 5.34910510417 </Bounds>
+      <Bounds>9.25582440528 5.84838106353 9.93154011709 6.32449217464 </Bounds>
       <SubordinateToID>108</SubordinateToID>
-      <SubordinateOffset>5.54607 2.0236</SubordinateOffset>
+      <SubordinateOffset>6.25556542264 2.28098644234</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -287,6 +258,35 @@
       <PageHelperPhotoDistancePrecisionDecimal>0</PageHelperPhotoDistancePrecisionDecimal>
       <PageHelperPhotoDistancePrecision>4</PageHelperPhotoDistancePrecision>
     </PageHelperPhotoDistance>
+    <PageTable>
+      <ID>107 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.0111169054893 0.0124654029498 2.30647764519 10.8486467847 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0xffffffff</BackgroundColor>
+      <AddNewData>1</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 2 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Arial</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <TableColumn> 110 0.733803277647 </TableColumn>
+      <TableColumn> 112 0.733803277647 </TableColumn>
+      <StartIndex> 149 </StartIndex>
+      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
+    </PageTable>
   </Page>
   <CurrentPageIndex>0</CurrentPageIndex>
   <DataSet>

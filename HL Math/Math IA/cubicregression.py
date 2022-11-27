@@ -1,5 +1,13 @@
 
 import math
+import numpy as np
+
+
+def _5dec(num):
+    return int(num * 100000) / 100000
+
+
+# flipping matrices
 
 # goal is to calculate for first matrix
 # right now, all I need to do is collect first 
@@ -17,17 +25,28 @@ parsed = [tuple(map(float, x.split())) for x in data.split('\n')]
 print(parsed[0])
 datasize = len(parsed)
 
+# numpy.tranpose to transpose
+
 # now we have a parsed list of coordinate values
 # create matrix - X
-X = [[1.0, parsed[i][1], parsed[i][1]**2, parsed[i][0]**3] for i in range(datasize)]
+X = np.array([[1.0, parsed[i][0], parsed[i][0]**2, parsed[i][0]**3] for i in range(datasize)], dtype=np.double)
+# and vector - Y
+Y = np.array([parsed[i][1] for i in range(datasize)], dtype=np.double)
+
+XT = np.transpose(X)
+
+print(np.shape(XT))
+for i in range(4):
+    print("&".join([str(_5dec(XT[i][0])), str(_5dec(XT[i][1])), "...", str(_5dec(XT[i][-2])), str(_5dec(XT[i][-1]))]) + "\\\\")
 
 
-# output :)
-for i in range(2):
-    print(" ".join([str(int(X[i][j]*100000) / 100000) for j in range(1,4)]))
+# # next solve for XT*X
+# XT_X = np.matmul(XT, X)
+# print(XT_X)
+# iXT_X = np.linalg.inv(XT_X)
 
-print("...              ...")
+# coef = np.matmul(np.matmul(iXT_X, XT), Y)
 
-for i in range(datasize-2, datasize):
-    print(" ".join([str(int(X[i][j]*100000) / 100000) for j in range(1,4)]))
+# print(coef)
+
 
