@@ -9,6 +9,11 @@ def _5dec(num):
 
 # ---------------------------------------------- #
 
+def _6dec(num):
+    return int(num * 1000000) / 1000000
+
+
+# flipping matrices
 
 # flipping matrices
 # goal is to calculate for first matrix
@@ -24,34 +29,45 @@ with open("data", 'r') as file:
     file.close()
 
 parsed = [tuple(map(float, x.split())) for x in data.split('\n')]
-print(parsed[0])
 datasize = len(parsed)
 
 # numpy.tranpose to transpose
 
 # now we have a parsed list of coordinate values
 # create matrix - X
-X = np.array([[1.0, parsed[i][0], parsed[i][0]**2, parsed[i][0]**3] for i in range(datasize)], dtype=np.double)
+X = np.array([[1.0, parsed[i][0], parsed[i][0]**2, parsed[i][0]**3, parsed[i][0]**4] for i in range(datasize)], dtype=np.double)
 # and vector - Y
 Y = np.array([parsed[i][1] for i in range(datasize)], dtype=np.double)
 
+# for i in range(2):
+#     print("&".join([str(_6dec(X[i][0])), str(_6dec(X[i][1])), str(_6dec(X[i][2])), str(_6dec(X[i][-2])), str(_6dec(X[i][-1]))]) + "\\\\")
+# print("...&"*4+"...\\\\")
+# for i in range(datasize-2, datasize):
+#     print("&".join([str(_6dec(X[i][0])), str(_6dec(X[i][1])), str(_6dec(X[i][2])), str(_6dec(X[i][-2])), str(_6dec(X[i][-1]))]) + "\\\\")
+
+
 XT = np.transpose(X)
 
-print(np.shape(XT))
-for i in range(4):
-    print("&".join([str(_5dec(XT[i][0])), str(_5dec(XT[i][1])), "...", str(_5dec(XT[i][-2])), str(_5dec(XT[i][-1]))]) + "\\\\")
+# print(np.shape(XT))
+# for i in range(5):
+#     print("&".join([str(_6dec(XT[i][0])), str(_6dec(XT[i][1])), "...", str(_6dec(XT[i][-2])), str(_6dec(XT[i][-1]))]) + "\\\\")
 
 # # next solve for XT*X
 XT_X = np.matmul(XT, X)
-print(np.shape(XT_X))
-for i in range(4):
-    print("&".join([str(_5dec(XT_X[i][0])), str(_5dec(XT_X[i][1])), str(_5dec(XT_X[i][-2])), str(_5dec(XT_X[i][-1]))]) + "\\\\")
 
-# find inverse
+# print(np.shape(XT_X))
+# for i in range(5):
+#     print("&".join([str(_6dec(XT_X[i][0])), str(_6dec(XT_X[i][1])), "...", str(_6dec(XT_X[i][-2])), str(_6dec(XT_X[i][-1]))]) + "\\\\")
+
+
 iXT_X = np.linalg.inv(XT_X)
 print(np.shape(iXT_X))
-for i in range(4):
-    print("&".join([str(_5dec(iXT_X[i][0])), str(_5dec(iXT_X[i][1])), str(_5dec(iXT_X[i][-2])), str(_5dec(iXT_X[i][-1]))]) + "\\\\")
+for i in range(5):
+    print("&".join([str(_6dec(iXT_X[i][0])), str(_6dec(iXT_X[i][1])), "...", str(_6dec(iXT_X[i][-2])), str(_6dec(iXT_X[i][-1]))]) + "\\\\")
+
+
+coef = np.matmul(np.matmul(iXT_X, XT), Y)
+print(coef)
 
 coef = np.matmul(np.matmul(iXT_X, XT), Y)
 
