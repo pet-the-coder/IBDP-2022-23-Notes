@@ -69,6 +69,3 @@ for i in range(5):
 coef = np.matmul(np.matmul(iXT_X, XT), Y)
 print(coef)
 
-coef = np.matmul(np.matmul(iXT_X, XT), Y)
-
-print(coef)
