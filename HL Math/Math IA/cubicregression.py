@@ -2,10 +2,12 @@
 import math
 import numpy as np
 
+from typing import List, Union
 
 def _5dec(num):
     return int(num * 100000) / 100000
 
+# ---------------------------------------------- #
 
 def _6dec(num):
     return int(num * 1000000) / 1000000
@@ -13,6 +15,7 @@ def _6dec(num):
 
 # flipping matrices
 
+# flipping matrices
 # goal is to calculate for first matrix
 # right now, all I need to do is collect first 
 # 100 values, take first 2 and last 2, output 
@@ -49,7 +52,6 @@ XT = np.transpose(X)
 # for i in range(5):
 #     print("&".join([str(_6dec(XT[i][0])), str(_6dec(XT[i][1])), "...", str(_6dec(XT[i][-2])), str(_6dec(XT[i][-1]))]) + "\\\\")
 
-
 # # next solve for XT*X
 XT_X = np.matmul(XT, X)
 
@@ -66,5 +68,4 @@ for i in range(5):
 
 coef = np.matmul(np.matmul(iXT_X, XT), Y)
 print(coef)
-
 
