@@ -24,7 +24,7 @@ def _6dec(num):
 # sample on docs btw
 
 # load data
-with open("left", 'r') as file:
+with open("righthand", 'r') as file:
     data = file.read()
     file.close()
 
