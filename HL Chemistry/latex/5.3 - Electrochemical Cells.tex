@@ -1,0 +1,141 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage[makeroom]{cancel}
+\usepackage{mhchem}
+\usepackage{pst-plot}
+
+\graphicspath{ {../images/} }
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\baselinestretch}{1.5} % line spacing
+\newcommand{\fline}{\par\noindent\rule{\textwidth}{0.1pt}} % horizontal line (wide)
+
+\title{Lesson Topic\\Lesson Number}
+\author{Peter Zhang}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% lesson 
+\section{Electrochemical Cells}
+2 types
+\begin{enumerate}
+\item Voltaic cell (galvanic cell)\\generates electricity from spontaneous rxn's
+
+ions on left and right + salt bridge (helps with movement of ions but do not affect the reaction at all) [spectator ions]
+
+the goal of \textbf{salt bridge} only HELPS WITH MOVEMENT of charge.
+$$\ce{Zn(s) \rightarrow Zn^{2+}_{(aq)}}$$
+
+solution on left will allow for more solid zinc to become ions (ANODE) -- solution on right will thicken up the copper bar (CATHODE) -- \textbf{SALT BRIDGE} is just filled with cotton + \textbf{spectator ions} (potassium nitrate \ce{KNO3})
+
+Net Reaction:
+$$\ce{An(s) + Cu^{2+}_{(aq)} \rightarrow Zn^{2+}_{(aq)} + Cu(s)}$$
+
+If you get a negative value when doing the math, the ANODE and CATHODE are REVERSED!!!\\
+- or its just not spontaneous reaction $\rightarrow$ this means that its not a (galvanic cell) anymore\\
+CATHOD and ANODE are just \textbf{electrodes}
+
+IB may ask for diagram!!! \textbf{GET IMAGE FROM LESSON NOTES}
+
+\subsection{Short Hand Form}
+\subsubsection{Rules}
+\begin{itemize}
+\item Single vertical line represents a \textbf{phase boundary} i.e. solid electrode + aqueous salt
+\item Double vertical line represents the \textbf{salt bridge} 
+\item Aqeuous solid's of each electrode are placed next to the salt bridge
+\item Anode goes on the left | Cathode goes on the right (electron flow from left to right)
+\item Spectator ions are omitted
+\item If half cell contains Z ions they are separated by a comma b/c they are in the same phase
+\end{itemize}
+
+Example: $$\ce{Zn(s) | Zn^{2+}_{(aq)} || Cu^{2+}_{(aq)} | Cu(s), Pt(s) = (Inert electrode)}$$
+the oxidation anode $\rightarrow$ $e^{-} flow \rightarrow$ reduction cathode
+
+
+Overall, to create a voltaiuc cell, any combination of anything can be used as long as the redox reactino provides a spontaneous overall reaction. The greater the distance between elements we are using, the higher the electric potential (Voltage) - see p24 data booklet.
+
+\end{enumerate}
+
+\section{Overall for Cells}
+\begin{enumerate}
+\item Higher on the reactivity series = more likely to \textbf{LOSE ELECTRONS}
+\end{enumerate}
+
+\section{Potential Difference, Voltage}
+Measured elements against hydrogen
+\begin{itemize}
+\item H was used as a way to ensure a zero voltage reading \\Standard Hydrogen Electrode [SHE] = $E^{o}$ - standard electrode potential
+
+Example:$$\ce{Zn(s) | Zn^{+2}(aq) || H+ (aq) | H2(g) | Pt(s)}$$
+
+$E^{o} = -0.76V$\\All $E^{o}$ values refer to the reduction reaction and are generally dismissible
+
+$E^{o}$ does not depend on total \# of \ce{e-} + not affected by coefficients in a blanaced rxn\\The more positive the more readily to reduce
+
+\item 3 Ways of using $E^{o}$
+\begin{enumerate}
+\item Calculating all potential, $E^{o}_{cell}$ must be +ve for all spontaneous rxn
+$$E^{o}_{cell} = E^{o}_{reduce} - E^{o}_{oxidation}$$
+Example: $$\ce{Zn(s) | Zn^{2+}(aq) || Ag+ (aq) | Ag(s)}$$
+\ce{Zn2+ + 2e- $\leftrightharpoons$ Zn\ \ $F^{o}= -0.76V$}\\
+\ce{Ag+ + e- $\rightleftharpoons$ Ag\ \ $E^{o}= +0.80V$}\\
+Therefore:
+$$E^{o}_{cell} = E^{o}_{reduce} - E^{o}_{oxidation}$$
+$$E^{o}_{cell} = 0.80V - (-0.76V)$$
+$$E^{o}_{cell} = + 1.56V$$
+\end{enumerate}
+
+\item 2nd Way: the Sponaneity of an rxn
+$$\triangle{G} = -nFE^{o}$$
+where:\\n = \# of mols of \ce{e-} transferred\\F = Faraday constant = 96500 C/mol\\$E^{o}$ is just that
+
+if $E^{o}$ is positive, GIBBS will be negative $\rightarrow$ spontaneous\\
+if $E^{o}$ is negative, GIBBS will be positive $\rightarrow$ NOT spont\\
+if $E^{o}$ is 0, GIBBS is 0 $\rightarrow$ rxn at equilibrium
+
+\end{itemize}
+
+\subsection{Example}
+Reaction between Zn and Mg
+\ce{Mg(s) | Mg2+ (aq) || Zn2+ (aq) | Zn(s)}
+$$E^{o}_{cell} = E^{o}_{reduce} - E^{o}_{oxidation}$$
+$$E^{o}_{cell} = -0.76 - (-2.37)$$
+$$=1.61V$$
+
+Finding the GIBBS
+
+$$\triangle{G} = -nFE^{o}$$
+$$=-2(96500)(1.61)$$
+$$=-311kJ/mol$$ (usually given in J, not kJ)
+
+\subsection{Example 2}
+Comparing relativen oxidizing + reducing power of half cells
+\begin{itemize}
+\item A metal is able to reduce the ions of another metal taht has higher $E^{o}$\\Metals with low $E^{o}$ are strong reducing agents
+\item A non-metal is able to oxidize the ions of another non-metal that has lower $E^{o}$\\Non-metals with high $E^{o}$ are strong oxidizing agents:\\
+EXAMPLE: \ce{Cu2+ + 2e- \rightarrow Cu \ \ $E^{o} = +0.39V$}\\\ce{$\frac{1}{2}$Cl2 + e- $\rightarrow$ Cl-\ \ $E^{o} = +1.36V$}
+
+Cl is the stronger oxidizing agent, \ce{Cu2+} would be the reducing agent
+\end{itemize}
+
+\section{Overview v2}
+\begin{enumerate}
+\item ALL $E^{o}$ value scan be found in data booklet... (plug and play into equations)
+\end{enumerate}
+
+
+
+
+\end{document}
