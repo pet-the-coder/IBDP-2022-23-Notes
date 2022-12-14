@@ -20,8 +20,8 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>12/11/2022 20:53:08</CreationDateTime>
-  <ModifiedDateTime>12/11/2022 22:18:52</ModifiedDateTime>
-  <PageBounds>0 0 17.4583333333 9.41666666667</PageBounds>
+  <ModifiedDateTime>12/13/2022 18:55:17</ModifiedDateTime>
+  <PageBounds>0 0 19.9583333333 9.72916666667</PageBounds>
   <ScreenResolution>0 0 1919 1079</ScreenResolution>
   <MathType>0</MathType>
   <AllowOptionsDialogs>1</AllowOptionsDialogs>
@@ -52,7 +52,7 @@
       <ID>106 </ID>
       <BroadcastTo>1 119 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>4.49852713474 0.0231794871795 17.4297651515 9.39348717949 </Bounds>
+      <Bounds>5.50729333333 0.0239487 19.9257 9.70522 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -109,8 +109,8 @@
       <GraphPlotXMax>700</GraphPlotXMax>
       <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
       <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
-      <GraphPlotYMin>0.1</GraphPlotYMin>
-      <GraphPlotYMax>0.6</GraphPlotYMax>
+      <GraphPlotYMin>0</GraphPlotYMin>
+      <GraphPlotYMax>0.7</GraphPlotYMax>
       <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
       <GraphPlotDefaultXMax>100</GraphPlotDefaultXMax>
       <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
@@ -125,11 +125,11 @@
       <ID>119 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>6.48811046807 2.58567948718 9.08361925713 3.69927323718 </Bounds>
+      <Bounds>9.38595 2.30690536667 11.9814587891 3.42049911667 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>1.98958333333 2.5625</SubordinateOffset>
+      <SubordinateOffset>3.87865666667 2.28295666667</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>0</AutoCreated>
@@ -168,9 +168,9 @@
       <ID>107 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>0.0214261363636 0.0173846153846 4.44853281656 9.39928205128 </Bounds>
+      <Bounds>0 0.00754483333333 5.63397236667 9.70079333333 </Bounds>
       <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0 0</SubordinateOffset>
+      <SubordinateOffset>-0.0520833333333 -0.0104166666667</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>1</AddNewData>
@@ -188,8 +188,9 @@
         <Name>Arial</Name>
         <Rotation>0</Rotation>
       </Font>
-      <TableColumn> 102 1.52363636364 </TableColumn>
-      <TableColumn> 104 1.52363636364 </TableColumn>
+      <TableColumn> 102 1.74182 </TableColumn>
+      <TableColumn> 104 1.16890333333 </TableColumn>
+      <TableColumn> 148 1.60208333333 </TableColumn>
       <StartIndex> 0 </StartIndex>
       <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
     </PageTable>
@@ -197,7 +198,7 @@
   <CurrentPageIndex>0</CurrentPageIndex>
   <DataSet>
     <ID>101 </ID>
-    <BroadcastTo>1 107 </BroadcastTo>
+    <BroadcastTo>2 107 150 </BroadcastTo>
     <Visible>1</Visible>
     <DataSetName>Data Set</DataSetName>
     <DataSetComments></DataSetComments>
@@ -220,7 +221,7 @@
     </Metadata>
     <DataColumn>
       <ID>102 </ID>
-      <BroadcastTo>3 17 106 107 </BroadcastTo>
+      <BroadcastTo>4 17 106 107 150 </BroadcastTo>
       <Visible>1</Visible>
       <DataObjectName>Temperature</DataObjectName>
       <DataObjectShortName>T</DataObjectShortName>
@@ -282,7 +283,7 @@
     </DataColumn>
     <DataColumn>
       <ID>104 </ID>
-      <BroadcastTo>3 17 106 107 </BroadcastTo>
+      <BroadcastTo>5 17 106 107 148 150 </BroadcastTo>
       <Visible>1</Visible>
       <DataObjectName>Pressure</DataObjectName>
       <DataObjectShortName>P</DataObjectShortName>
@@ -311,7 +312,7 @@
       <ColumnUseErrorCalculations>1</ColumnUseErrorCalculations>
       <ColumnErrorFixed>1</ColumnErrorFixed>
       <ColumnErrorConstant>1</ColumnErrorConstant>
-      <ColumnErrorValue>0.01</ColumnErrorValue>
+      <ColumnErrorValue>0.03</ColumnErrorValue>
       <ColumnErrorColumnID>0</ColumnErrorColumnID>
       <ColumnForceScientific>0</ColumnForceScientific>
       <ColumnSensorColumn>0</ColumnSensorColumn>
@@ -342,6 +343,56 @@
 0.58
 </ColumnCells>
     </DataColumn>
+    <DataColumn>
+      <ID>148 </ID>
+      <BroadcastTo>2 17 107 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>Volume</DataObjectName>
+      <DataObjectShortName>Volume</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0xffff| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>150</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>6</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <ColumnUnits>L</ColumnUnits>
+      <ColumnProtected>1</ColumnProtected>
+      <ColumnUserEditable>1</ColumnUserEditable>
+      <ColumnTreatAsText>0</ColumnTreatAsText>
+      <ColumnDataType>0</ColumnDataType>
+      <StartTime>1670972312</StartTime>
+      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
+      <ColumnGeoRole>n-a</ColumnGeoRole>
+      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
+      <ColumnUserCreated>1</ColumnUserCreated>
+      <ColumnPPStyle>1</ColumnPPStyle>
+      <ColumnPPSize>2</ColumnPPSize>
+      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
+      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
+      <ColumnDisplayPPFromColumn>1</ColumnDisplayPPFromColumn>
+      <ColumnDisplayPPColumnID>104</ColumnDisplayPPColumnID>
+      <ColumnUseErrorCalculations>1</ColumnUseErrorCalculations>
+      <ColumnErrorFixed>1</ColumnErrorFixed>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
+      <ColumnForceScientific>1</ColumnForceScientific>
+      <ColumnSensorColumn>0</ColumnSensorColumn>
+      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
+      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
+      <ColumnMatchTag></ColumnMatchTag>
+      <ColumnStartCollectTime>0</ColumnStartCollectTime>
+      <ColumnGenerateValues>0</ColumnGenerateValues>
+      <ColumnGenerateType>0</ColumnGenerateType>
+      <ColumnStart>1</ColumnStart>
+      <ColumnEnd>100</ColumnEnd>
+      <ColumnIncrement>1</ColumnIncrement>
+      <ColumnNameStart>0</ColumnNameStart>
+      <ColumnNumber>10</ColumnNumber>
+      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
+      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
+      <ColumnGroupID>149</ColumnGroupID>
+    </DataColumn>
   </DataSet>
   <DataSet>
     <ID>120 </ID>
@@ -370,8 +421,8 @@
       <ID>121 </ID>
       <BroadcastTo>1 106 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>mT+b</DataObjectName>
-      <DataObjectShortName>Fit</DataObjectShortName>
+      <DataObjectName>m*x+b</DataObjectName>
+      <DataObjectShortName>Linear</DataObjectShortName>
       <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
@@ -395,6 +446,15 @@ b
     <ID>13 </ID>
     <BroadcastTo>0 </BroadcastTo>
     <Visible>1</Visible>
+    <CalcColumnSource2>
+      <ID>150 </ID>
+      <BroadcastTo>1 148 </BroadcastTo>
+      <Visible>1</Visible>
+      <CalcEquation>(50/(6.02*10^23)*8.31*"Pressure")/"Temperature"</CalcEquation>
+      <CalcOutColumnID>148</CalcOutColumnID>
+      <CalcWantNANs>1</CalcWantNANs>
+      <CalcEquationEditable>1</CalcEquationEditable>
+    </CalcColumnSource2>
   </DataSourceServer>
   <MBLBrain>
     <MBLCollectionUserCollectMode>0</MBLCollectionUserCollectMode>
