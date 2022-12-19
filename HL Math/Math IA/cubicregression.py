@@ -112,6 +112,9 @@ def find_cubic(parsed):
     # print([float(x) for x in coef])
 
 
+
 find_quartic(parsed)
+
+print(f"{parsed[0]:.6f} +")
 print(" ".join([f"{x:.6f}" for x in find_quartic(parsed)]))
 
